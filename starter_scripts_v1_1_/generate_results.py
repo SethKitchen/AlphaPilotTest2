@@ -1,4 +1,4 @@
-# This script is to be filled by the team members. 
+# This script is to be filled by the team members.
 # Import necessary libraries
 # Load libraries
 import json
@@ -22,7 +22,7 @@ from mrcnn.config import Config
 from mrcnn import model as modellib, utils
 
 # Path to trained weights file
-WEIGHTS_PATH = os.path.join(ROOT_DIR, "logs","gate20190227T0051","mask_rcnn_gate_0007.h5")
+WEIGHTS_PATH = os.path.join(ROOT_DIR, "logs","gate20190228T2325","mask_rcnn_gate_0030.h5")
 
 # Directory to save logs and model checkpoints, if not provided
 # through the command line argument --logs
@@ -55,7 +55,7 @@ class InferenceConfig(gateConfig):
     # one image at a time. Batch size = GPU_COUNT * IMAGES_PER_GPU
     GPU_COUNT = 1
     IMAGES_PER_GPU = 1
-        
+
 def e_dist(a, b, metric='euclidean'):
     """Distance calculation for 1D, 2D and 3D points using einsum
     : a, b   - list, tuple, array in 1,2 or 3D form
@@ -90,12 +90,12 @@ class GenerateFinalDetections():
         self.model.load_weights(self.weights_path, by_name=True)
         #np.set_printoptions(threshold=np.inf)
 
-        
+
     def predict(self,img):
         # Read image
-        image = cv2.imread(os.path.join(ROOT_DIR, "Data_LeaderboardTesting", img))
+        image = img
         # Detect objects
-        r = self.model.detect([image], verbose=1)[0]
+        r = self.model.detect([image], verbose=0)[0]
         mask=r['masks']
         gray = cv2.cvtColor(cv2.cvtColor(image, cv2.COLOR_BGR2GRAY),cv2.COLOR_GRAY2RGB)*255
         # Copy color pixels from the original color image where mask is set
@@ -150,10 +150,10 @@ class GenerateFinalDetections():
                     y2=corners[i][1]
                 elif corners[i][0] > xAverage and corners[i][1]>yAverage and x3==0.0 and y3==0.0:
                     x3=corners[i][0]
-                    y3=corners[i][1]    
-        print(x1,y1,x2,y2,x3,y3,x4,y4)            
+                    y3=corners[i][1]
+        #print(x1,y1,x2,y2,x3,y3,x4,y4)
         #img[dst>0.1*dst.max()]=[0,255,0]
         #cv2.imwrite('Corners.png', img)
         toReturn=np.array([x1, y1, x2, y2, x3, y3, x4, y4, 1])
         return [toReturn.tolist()]
-        
+
