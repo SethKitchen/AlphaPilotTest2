@@ -94,34 +94,11 @@ class GenerateFinalDetections():
     def predict(self,img):
         # Read image
         image = img
+        height,width,channels=img.shape
         # Detect objects
         r = self.model.detect([image], verbose=0)[0]
         mask=r['masks']
-        gray = cv2.cvtColor(cv2.cvtColor(image, cv2.COLOR_BGR2GRAY),cv2.COLOR_GRAY2RGB)*255
-        # Copy color pixels from the original color image where mask is set
-        if mask.shape[-1] > 0:
-            # We're treating all instances as one, so collapse the mask into one layer
-            mask = (np.sum(mask, -1, keepdims=True) >= 1)
-            splash = np.where(mask, [248,24,148], [0,0,0]).astype(np.uint8)
-        else:
-            splash = gray.astype(np.uint8)
-
-        #file_name = "splash_{:%Y%m%dT%H%M%S}.png".format(datetime.datetime.now())
-        #skimage.io.imsave(file_name, splash)
-        # read image
-        #img = cv2.imread(file_name)
-
-        # thresholding
-        thresh=cv2.inRange(splash, (5, 5, 5), (255, 255, 255))
-        #cv2.imwrite("thresh.png", thresh)
-
-        gray = np.float32(thresh)
-        dst = cv2.cornerHarris(gray,5,3,0.04)
-        ret, dst = cv2.threshold(dst,0.1*dst.max(),255,0)
-        dst = np.uint8(dst)
-        ret, labels, stats, centroids = cv2.connectedComponentsWithStats(dst)
-        criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 100, 0.001)
-        corners = cv2.cornerSubPix(gray,np.float32(centroids),(5,5),(-1,-1),criteria)
+        print(mask)
         x1=0
         x2=0
         x3=0
@@ -130,30 +107,35 @@ class GenerateFinalDetections():
         y2=0
         y3=0
         y4=0
+        minDistanceTopLeft=999999
+        minDistanceTopRight=999999
+        minDistanceBottomLeft=999999
+        minDistanceBottomRight=999999
         xAverage=0.0
         yAverage=0.0
-        if len(corners) > 4:
-            for i in range(1, len(corners)):
-                xAverage+=corners[i][0]
-                yAverage+=corners[i][1]
-            xAverage=xAverage/(len(corners)-1)
-            yAverage=yAverage/(len(corners)-1)
-            for i in range(1, len(corners)):
-                if corners[i][0] < xAverage and corners[i][1]<yAverage and x1==0.0 and y1==0.0:
-                    x1=corners[i][0]
-                    y1=corners[i][1]
-                elif corners[i][0] < xAverage and corners[i][1]>yAverage:
-                    x4=corners[i][0]
-                    y4=corners[i][1]
-                elif corners[i][0] > xAverage and corners[i][1]<yAverage:
-                    x2=corners[i][0]
-                    y2=corners[i][1]
-                elif corners[i][0] > xAverage and corners[i][1]>yAverage and x3==0.0 and y3==0.0:
-                    x3=corners[i][0]
-                    y3=corners[i][1]
-        #print(x1,y1,x2,y2,x3,y3,x4,y4)
-        #img[dst>0.1*dst.max()]=[0,255,0]
-        #cv2.imwrite('Corners.png', img)
+        for x in range(0, len(mask)):
+            for y in range(0, len(mask[x])):
+                if(mask[x][y]):
+                    distToTopLeft=(x-0)*(x-0)+(y-0)*(y-0)
+                    if(distToTopLeft<minDistanceTopLeft):
+                        minDistanceTopLeft=distToTopLeft
+                        x1=x
+                        y1=y
+                    distToTopRight=(x-width)*(x-width)+(y-0)*(y-0)
+                    if(distToTopRight<minDistanceTopRight):
+                        minDistanceTopRight=distToTopRight
+                        x2=x
+                        y2=y
+                    distToBottomLeft=(x-0)*(x-0)+(y-height)*(y-height)
+                    if(distToBottomLeft<minDistanceBottomLeft):
+                        minDistanceBottomLeft=distToBottomLeft
+                        x4=x
+                        y4=y
+                    distToBottomRight=(x-width)*(x-width)+(y-height)*(y-height)
+                    if(distToBottomRight<minDistanceBottomRight):
+                        minDistanceBottomRight=distToBottomRight
+                        x3=x
+                        y3=y
         toReturn=np.array([x1, y1, x2, y2, x3, y3, x4, y4, 1])
         return [toReturn.tolist()]
 
