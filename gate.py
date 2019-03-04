@@ -91,8 +91,11 @@ class gateDataset(utils.Dataset):
 
         # Train or validation dataset?
         assert subset in ["train", "val"]
-        dataset_dir = os.path.join(dataset_dir)#, subset)
-
+        if subset=="train":
+            dataset_dir = os.path.join(dataset_dir, 'Data_Training')
+        else:
+            dataset_dir= os.path.join(dataset_dir, 'Data_LeaderboardTesting')
+            
         # Load annotations
         # VGG Image Annotator (up to version 1.6) saves each image in the form:
         # { 'filename': '28503151_5b5b7ec140_b.jpg',
