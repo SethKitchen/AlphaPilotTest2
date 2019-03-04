@@ -106716,19 +106716,6 @@
 		}
 	}
 },
-"IMG_8686.sjon.JPG": {
-	"filename":"IMG_8686.sjon.JPG",
-	"regions": {
-		"0": {
-			"region_attributes": {},
-			"shape_attributes": {
-				"all_points_x": [483, 639, 637, 481 ],
-				"all_points_y": [333, 358, 577, 591 ],
-				"name":"polygon"
-			}
-		}
-	}
-},
 "IMG_8687 (1).JPG": {
 	"filename":"IMG_8687 (1).JPG",
 	"regions": {
@@ -109253,19 +109240,6 @@
 },
 "IMG_8832.JPG": {
 	"filename":"IMG_8832.JPG",
-	"regions": {
-		"0": {
-			"region_attributes": {},
-			"shape_attributes": {
-				"all_points_x": [484, 774, 774, 483 ],
-				"all_points_y": [197, 213, 502, 512 ],
-				"name":"polygon"
-			}
-		}
-	}
-},
-"IMG_8832.jdon.JPG": {
-	"filename":"IMG_8832.jdon.JPG",
 	"regions": {
 		"0": {
 			"region_attributes": {},
