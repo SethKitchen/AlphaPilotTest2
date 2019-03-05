@@ -89,27 +89,30 @@ class GenerateFinalDetections():
         minDistanceBottomRight=9999999
         for x in range(0, len(mask)):
             for y in range(0, len(mask[x])):
-                if(mask[x][y][0]):
-                    distToTopLeft=(x-0)*(x-0)+(y-0)*(y-0)
-                    if(distToTopLeft<minDistanceTopLeft):
-                        minDistanceTopLeft=distToTopLeft
-                        x1=x
-                        y1=y
-                    distToTopRight=(x-width)*(x-width)+(y-0)*(y-0)
-                    if(distToTopRight<minDistanceTopRight):
-                        minDistanceTopRight=distToTopRight
-                        x2=x
-                        y2=y
-                    distToBottomLeft=(x-0)*(x-0)+(y-height)*(y-height)
-                    if(distToBottomLeft<minDistanceBottomLeft):
-                        minDistanceBottomLeft=distToBottomLeft
-                        x4=x
-                        y4=y
-                    distToBottomRight=(x-width)*(x-width)+(y-height)*(y-height)
-                    if(distToBottomRight<minDistanceBottomRight):
-                        minDistanceBottomRight=distToBottomRight
-                        x3=x
-                        y3=y
+                try:
+                    if(mask[x][y][0]):
+                        distToTopLeft=(x-0)*(x-0)+(y-0)*(y-0)
+                        if(distToTopLeft<minDistanceTopLeft):
+                            minDistanceTopLeft=distToTopLeft
+                            x1=x
+                            y1=y
+                        distToTopRight=(x-width)*(x-width)+(y-0)*(y-0)
+                        if(distToTopRight<minDistanceTopRight):
+                            minDistanceTopRight=distToTopRight
+                            x2=x
+                            y2=y
+                        distToBottomLeft=(x-0)*(x-0)+(y-height)*(y-height)
+                        if(distToBottomLeft<minDistanceBottomLeft):
+                            minDistanceBottomLeft=distToBottomLeft
+                            x4=x
+                            y4=y
+                        distToBottomRight=(x-width)*(x-width)+(y-height)*(y-height)
+                        if(distToBottomRight<minDistanceBottomRight):
+                            minDistanceBottomRight=distToBottomRight
+                            x3=x
+                            y3=y
+                except:
+                    
         gray = skimage.color.gray2rgb(skimage.color.rgb2gray(image)) * 255
         # Copy color pixels from the original color image where mask is set
         if mask.shape[-1] > 0:
