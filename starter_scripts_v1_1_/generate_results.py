@@ -91,17 +91,17 @@ class GenerateFinalDetections():
             for y in range(0, len(mask[x])):
                 try:
                     if(mask[x][y][0]):
-                        distToTopLeft=(x-0)*(x-0)+(y-0)*(y-0)
+                        distToTopLeft=x*x+y*y
                         if(distToTopLeft<minDistanceTopLeft):
                             minDistanceTopLeft=distToTopLeft
                             x1=x
                             y1=y
-                        distToTopRight=(x-width)*(x-width)+(y-0)*(y-0)
+                        distToTopRight=(x-width)*(x-width)+y*y
                         if(distToTopRight<minDistanceTopRight):
                             minDistanceTopRight=distToTopRight
                             x2=x
                             y2=y
-                        distToBottomLeft=(x-0)*(x-0)+(y-height)*(y-height)
+                        distToBottomLeft=x*x+(y-height)*(y-height)
                         if(distToBottomLeft<minDistanceBottomLeft):
                             minDistanceBottomLeft=distToBottomLeft
                             x4=x
@@ -127,6 +127,6 @@ class GenerateFinalDetections():
         splash[x4][y4]=[0,255,0]
         file_name = "splash_{:%Y%m%dT%H%M%S}.png".format(datetime.datetime.now())
         skimage.io.imsave(file_name, splash)
-        toReturn=np.array([x1, y1, x2, y2, x3, y3, x4, y4, 1])
+        toReturn=np.array([y1, x1, y4, x4, y3, x3, y2, x2, 1])
         return [toReturn.tolist()]
 
