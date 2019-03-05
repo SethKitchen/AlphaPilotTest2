@@ -6,7 +6,7 @@ import numpy as np
 from random import shuffle
 
 import sys
-#sys.path.insert(1, '/usr/local/lib/python3.5/dist-packages')
+sys.path.insert(1, '/usr/local/lib/python3.5/dist-packages')
 
 import cv2
 
