@@ -14,7 +14,7 @@ import cv2
 import math
 
 # Root directory of the project
-ROOT_DIR = os.path.abspath("")
+ROOT_DIR = os.path.abspath("../")
 
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
@@ -22,7 +22,7 @@ from mrcnn.config import Config
 from mrcnn import model as modellib, utils
 
 # Path to trained weights file
-WEIGHTS_PATH = os.path.join(ROOT_DIR, "release_1.h5")
+WEIGHTS_PATH = os.path.join(ROOT_DIR, "logs","gate20190305T0706","mask_rcnn_gate_0100.h5")
 
 # Directory to save logs and model checkpoints, if not provided
 # through the command line argument --logs
@@ -120,7 +120,21 @@ class GenerateFinalDetections():
                   pass
         if x1==0:
             if x2==0:
-                return []                        
+                return []
+        gray = skimage.color.gray2rgb(skimage.color.rgb2gray(img)) * 255
+        # Copy color pixels from the original color image where mask is set
+        if mask.shape[-1] > 0:
+            # We're treating all instances as one, so collapse the mask into one layer
+            mask = (np.sum(mask, -1, keepdims=True) >= 1)
+            splash = np.where(mask, [255,0,0], gray).astype(np.uint8)
+        else:
+            splash = gray.astype(np.uint8)
+        splash[x1][y1]=[0,255,0]
+        splash[x2][y2]=[0,255,0]
+        splash[x3][y3]=[0,255,0]
+        splash[x4][y4]=[0,255,0]
+        file_name = "splash_{:%Y%m%dT%H%M%S}.png".format(datetime.datetime.now())
+        skimage.io.imsave(file_name, splash)                        
         toReturn=np.array([y1, x1, y4, x4, y3, x3, y2, x2, 1])
         return [toReturn.tolist()]
 
