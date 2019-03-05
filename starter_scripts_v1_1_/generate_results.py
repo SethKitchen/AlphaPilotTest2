@@ -14,7 +14,7 @@ import cv2
 import math
 
 # Root directory of the project
-ROOT_DIR = os.path.abspath("../")
+ROOT_DIR = os.path.abspath("")
 
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
@@ -22,7 +22,7 @@ from mrcnn.config import Config
 from mrcnn import model as modellib, utils
 
 # Path to trained weights file
-WEIGHTS_PATH = os.path.join(ROOT_DIR, "logs","gate20190304T2306","mask_rcnn_gate_0030.h5")
+WEIGHTS_PATH = os.path.join(ROOT_DIR, "release_1.h5")
 
 # Directory to save logs and model checkpoints, if not provided
 # through the command line argument --logs
@@ -68,12 +68,10 @@ class GenerateFinalDetections():
         #np.set_printoptions(threshold=np.inf)
 
 
-    def predict(self,img,imgname):
-        # Read image
-        image = img
+    def predict(self,img):
         height,width,channels=img.shape
         # Detect objects
-        r = self.model.detect([image], verbose=0)[0]
+        r = self.model.detect([img], verbose=0)[0]
         mask=r['masks']
         x1=0
         x2=0
@@ -87,8 +85,15 @@ class GenerateFinalDetections():
         minDistanceTopRight=9999999
         minDistanceBottomLeft=9999999
         minDistanceBottomRight=9999999
-        for x in range(0, len(mask)):
-            for y in range(0, len(mask[x])):
+        firstRange=0
+        secondRange=0
+        try:
+            firstRange=range(0, len(mask))
+            secondRange=range(0, len(mask[0]))
+        except:
+            pass
+        for x in firstRange:
+            for y in secondRange:
                 try:
                     if(mask[x][y][0]):
                         distToTopLeft=x*x+y*y
@@ -113,20 +118,9 @@ class GenerateFinalDetections():
                             y3=y
                 except:
                   pass
-        gray = skimage.color.gray2rgb(skimage.color.rgb2gray(image)) * 255
-        # Copy color pixels from the original color image where mask is set
-        if mask.shape[-1] > 0:
-            # We're treating all instances as one, so collapse the mask into one layer
-            mask = (np.sum(mask, -1, keepdims=True) >= 1)
-            splash = np.where(mask, [255,0,0], gray).astype(np.uint8)
-        else:
-            splash = gray.astype(np.uint8)
-        splash[x1][y1]=[0,255,0]
-        splash[x2][y2]=[0,255,0]
-        splash[x3][y3]=[0,255,0]
-        splash[x4][y4]=[0,255,0]
-        file_name = "splash_{:%Y%m%dT%H%M%S}.png".format(datetime.datetime.now())
-        skimage.io.imsave(file_name, splash)
+        if x1==0:
+            if x2==0:
+                return []                        
         toReturn=np.array([y1, x1, y4, x4, y3, x3, y2, x2, 1])
         return [toReturn.tolist()]
 

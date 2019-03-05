@@ -28,7 +28,7 @@ for img_key in img_keys:
     #print(img_key)
     img=cv2.imread('../Data_LeaderboardTesting/'+img_key)
     tic = time.monotonic()
-    bb_all = finalDetector.predict(img,img_key)
+    bb_all = finalDetector.predict(img)
     toc = time.monotonic()
     pred_dict[img_key] = bb_all
     time_all.append(toc-tic)
