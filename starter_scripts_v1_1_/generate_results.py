@@ -112,7 +112,7 @@ class GenerateFinalDetections():
                             x3=x
                             y3=y
                 except:
-                    
+                  pass
         gray = skimage.color.gray2rgb(skimage.color.rgb2gray(image)) * 255
         # Copy color pixels from the original color image where mask is set
         if mask.shape[-1] > 0:
