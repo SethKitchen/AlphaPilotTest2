@@ -6,7 +6,7 @@ import numpy as np
 from random import shuffle
 
 import sys
-sys.path.insert(1, '/usr/local/lib/python3.5/dist-packages')
+#sys.path.insert(1, '/usr/local/lib/python3.5/dist-packages')
 
 import cv2
 
@@ -28,10 +28,11 @@ for img_key in img_keys:
     #print(img_key)
     img=cv2.imread('../Data_LeaderboardTesting/'+img_key)
     tic = time.monotonic()
-    bb_all = finalDetector.predict(img)
+    bb_all = finalDetector.predict(img,img_key)
     toc = time.monotonic()
     pred_dict[img_key] = bb_all
     time_all.append(toc-tic)
+    print(toc-tic)
 
 mean_time = np.mean(time_all)
 ci_time = 1.96*np.std(time_all)

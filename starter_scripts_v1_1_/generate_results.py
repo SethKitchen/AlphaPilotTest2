@@ -22,7 +22,7 @@ from mrcnn.config import Config
 from mrcnn import model as modellib, utils
 
 # Path to trained weights file
-WEIGHTS_PATH = os.path.join(ROOT_DIR, "logs","gate20190228T2325","mask_rcnn_gate_0030.h5")
+WEIGHTS_PATH = os.path.join(ROOT_DIR, "logs","gate20190304T2306","mask_rcnn_gate_0030.h5")
 
 # Directory to save logs and model checkpoints, if not provided
 # through the command line argument --logs
@@ -56,29 +56,6 @@ class InferenceConfig(gateConfig):
     GPU_COUNT = 1
     IMAGES_PER_GPU = 1
 
-def e_dist(a, b, metric='euclidean'):
-    """Distance calculation for 1D, 2D and 3D points using einsum
-    : a, b   - list, tuple, array in 1,2 or 3D form
-    : metric - euclidean ('e','eu'...), sqeuclidean ('s','sq'...),
-    :-----------------------------------------------------------------------
-    """
-    a = np.asarray(a)
-    b = np.atleast_2d(b)
-    a_dim = a.ndim
-    b_dim = b.ndim
-    if a_dim == 1:
-        a = a.reshape(1, 1, a.shape[0])
-    if a_dim >= 2:
-        a = a.reshape(np.prod(a.shape[:-1]), 1, a.shape[-1])
-    if b_dim > 2:
-        b = b.reshape(np.prod(b.shape[:-1]), b.shape[-1])
-    diff = a - b
-    dist_arr = np.einsum('ijk,ijk->ij', diff, diff)
-    if metric[:1] == 'e':
-        dist_arr = np.sqrt(dist_arr)
-    dist_arr = np.squeeze(dist_arr)
-    return dist_arr
-
 class GenerateFinalDetections():
     def __init__(self):
         self.config = InferenceConfig()
@@ -91,14 +68,13 @@ class GenerateFinalDetections():
         #np.set_printoptions(threshold=np.inf)
 
 
-    def predict(self,img):
+    def predict(self,img,imgname):
         # Read image
         image = img
         height,width,channels=img.shape
         # Detect objects
         r = self.model.detect([image], verbose=0)[0]
         mask=r['masks']
-        print(mask)
         x1=0
         x2=0
         x3=0
@@ -107,12 +83,10 @@ class GenerateFinalDetections():
         y2=0
         y3=0
         y4=0
-        minDistanceTopLeft=999999
-        minDistanceTopRight=999999
-        minDistanceBottomLeft=999999
-        minDistanceBottomRight=999999
-        xAverage=0.0
-        yAverage=0.0
+        minDistanceTopLeft=9999999
+        minDistanceTopRight=9999999
+        minDistanceBottomLeft=9999999
+        minDistanceBottomRight=9999999
         for x in range(0, len(mask)):
             for y in range(0, len(mask[x])):
                 if(mask[x][y]):
@@ -136,6 +110,20 @@ class GenerateFinalDetections():
                         minDistanceBottomRight=distToBottomRight
                         x3=x
                         y3=y
+        gray = skimage.color.gray2rgb(skimage.color.rgb2gray(image)) * 255
+        # Copy color pixels from the original color image where mask is set
+        if mask.shape[-1] > 0:
+            # We're treating all instances as one, so collapse the mask into one layer
+            mask = (np.sum(mask, -1, keepdims=True) >= 1)
+            splash = np.where(mask, [255,0,0], gray).astype(np.uint8)
+        else:
+            splash = gray.astype(np.uint8)
+        splash[x1][y1]=[0,255,0]
+        splash[x2][y2]=[0,255,0]
+        splash[x3][y3]=[0,255,0]
+        splash[x4][y4]=[0,255,0]
+        file_name = "splash_"+imgname+".png"
+        skimage.io.imsave(file_name, splash)
         toReturn=np.array([x1, y1, x2, y2, x3, y3, x4, y4, 1])
         return [toReturn.tolist()]
 
