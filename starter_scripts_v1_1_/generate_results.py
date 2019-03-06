@@ -59,100 +59,54 @@ class InferenceConfig(gateConfig):
 class GenerateFinalDetections():
     def __init__(self):
         self.config = InferenceConfig()
-        self.config.display()
         self.model = modellib.MaskRCNN(mode="inference", config=self.config,
                                   model_dir=DEFAULT_LOGS_DIR)
         # Find last trained weights
         self.weights_path = WEIGHTS_PATH
         self.model.load_weights(self.weights_path, by_name=True)
-        #np.set_printoptions(threshold=np.inf)
 
 
     def predict(self,img):
-        height,width,channels=img.shape
-        # Detect objects
-        r = self.model.detect([img], verbose=0)[0]
-        mask=r['masks']
-        x1=0
-        x2=0
-        x3=0
-        x4=0
-        y1=0
-        y2=0
-        y3=0
-        y4=0
-        gray = skimage.color.gray2rgb(skimage.color.rgb2gray(img)) * 255
-        # Copy color pixels from the original color image where mask is set
-        if mask.shape[-1] > 0:
-            # We're treating all instances as one, so collapse the mask into one layer
-            mask = (np.sum(mask, -1, keepdims=True) >= 1)
-            splash = np.where(mask, [255,0,0], gray).astype(np.uint8)
-        else:
-            splash = gray.astype(np.uint8)
-        # threshold image
-        thresh = cv2.inRange(splash, np.array([255,0,0]), np.array([255,0,0]))
-        cv2.imwrite('threshold.png',thresh)
-        # dilate thresholded image - merges top/bottom 
-        kernel = np.ones((3,3), np.uint8)
-        dilated = cv2.dilate(thresh, kernel, iterations=3)
-        cv2.imwrite('thresholddilated.png',dilated)
-        # find contours
-        contours, hierarchy = cv2.findContours(dilated,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
-        # simplify contours
-        if len(contours)>0:
-            epsilon = 0.1*cv2.arcLength(contours[0],True)
-            approx = cv2.approxPolyDP(contours[0],epsilon,True)
-            cv2.drawContours(img, [approx], 0, (255,255,255), 3)
-            print("simplified contour has",len(approx),"points")
-            if len(approx)==4:
-                # display output 
-                cv2.imwrite('finalImg.png',img)
-                minDistanceTopLeft=9999999
-                minDistanceTopRight=9999999
-                minDistanceBottomLeft=9999999
-                minDistanceBottomRight=9999999
-                for i in range(0, len(approx)):
-                    print(approx[i][0])
-                    x=approx[i][0][0]
-                    y=approx[i][0][1]
-                    distToTopLeft=x*x+y*y
-                    if(distToTopLeft<minDistanceTopLeft):
-                        minDistanceTopLeft=distToTopLeft
-                        x1=x
-                        y1=y
-                    distToTopRight=(x-width)*(x-width)+y*y
-                    if(distToTopRight<minDistanceTopRight):
-                        minDistanceTopRight=distToTopRight
-                        x2=x
-                        y2=y
-                    distToBottomLeft=x*x+(y-height)*(y-height)
-                    if(distToBottomLeft<minDistanceBottomLeft):
-                        minDistanceBottomLeft=distToBottomLeft
-                        x4=x
-                        y4=y
-                    distToBottomRight=(x-width)*(x-width)+(y-height)*(y-height)
-                    if(distToBottomRight<minDistanceBottomRight):
-                        minDistanceBottomRight=distToBottomRight
-                        x3=x
-                        y3=y
-                toReturn=np.array([x1, y1, x2, y2, x3, y3, x4, y4, 1])
-                print(toReturn)
-                return [toReturn.tolist()]
-        minDistanceTopLeft=9999999
-        minDistanceTopRight=9999999
-        minDistanceBottomLeft=9999999
-        minDistanceBottomRight=9999999
-        firstRange=0
-        secondRange=0
         try:
-            firstRange=range(0, len(mask))
-            secondRange=range(0, len(mask[0]))
-        except:
-            pass
-        for x in firstRange:
-            for y in secondRange:
-                try:
-                    if(mask[x][y][0]):
+            height,width,channels=img.shape
+            # Detect objects
+            r = self.model.detect([img], verbose=0)[0]
+            mask=r['masks']
+            x1=0
+            x2=0
+            x3=0
+            x4=0
+            y1=0
+            y2=0
+            y3=0
+            y4=0
+            # Copy color pixels from the original color image where mask is set
+            if mask.shape[-1] > 0:
+                # We're treating all instances as one, so collapse the mask into one layer
+                mask = (np.sum(mask, -1, keepdims=True) >= 1)
+                splash = np.where(mask, [255,0,0], img).astype(np.uint8)
+            else:
+                splash = img.astype(np.uint8)
+            # threshold image
+            thresh = cv2.inRange(splash, np.array([255,0,0]), np.array([255,0,0]))
+            # dilate thresholded image - merges top/bottom 
+            kernel = np.ones((3,3), np.uint8)
+            dilated = cv2.dilate(thresh, kernel, iterations=3)
+            # find contours
+            contours, hierarchy = cv2.findContours(dilated,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
+            # simplify contours
+            if len(contours)>0:
+                epsilon = 0.1*cv2.arcLength(contours[0],True)
+                approx = cv2.approxPolyDP(contours[0],epsilon,True)
+                cv2.drawContours(img, [approx], 0, (255,255,255), 3)
+                if len(approx)==4:
+                    minDistanceTopLeft=9999999
+                    minDistanceTopRight=9999999
+                    minDistanceBottomLeft=9999999
+                    minDistanceBottomRight=9999999
+                    for i in range(0, len(approx)):
+                        x=approx[i][0][0]
+                        y=approx[i][0][1]
                         distToTopLeft=x*x+y*y
                         if(distToTopLeft<minDistanceTopLeft):
                             minDistanceTopLeft=distToTopLeft
@@ -173,25 +127,49 @@ class GenerateFinalDetections():
                             minDistanceBottomRight=distToBottomRight
                             x3=x
                             y3=y
-                except:
-                    pass
-        if x1==0:
-            if x2==0:
-                return [[]]
-        gray = skimage.color.gray2rgb(skimage.color.rgb2gray(img)) * 255
-        # Copy color pixels from the original color image where mask is set
-        if mask.shape[-1] > 0:
-            # We're treating all instances as one, so collapse the mask into one layer
-            mask = (np.sum(mask, -1, keepdims=True) >= 1)
-            splash = np.where(mask, [255,0,0], gray).astype(np.uint8)
-        else:
-            splash = gray.astype(np.uint8)
-        splash[x1][y1]=[0,255,0]
-        splash[x2][y2]=[0,255,0]
-        splash[x3][y3]=[0,255,0]
-        splash[x4][y4]=[0,255,0]
-        file_name = "splash_{:%Y%m%dT%H%M%S}.png".format(datetime.datetime.now())
-        skimage.io.imsave(file_name, splash)                        
-        toReturn=np.array([y1, x1, y4, x4, y3, x3, y2, x2, 1])
-        print(toReturn)
-        return [toReturn.tolist()]
+                    toReturn=np.array([x1, y1, x2, y2, x3, y3, x4, y4, 1])
+                    return [toReturn.tolist()]
+            minDistanceTopLeft=9999999
+            minDistanceTopRight=9999999
+            minDistanceBottomLeft=9999999
+            minDistanceBottomRight=9999999
+            firstRange=0
+            secondRange=0
+            try:
+                firstRange=range(0, len(mask))
+                secondRange=range(0, len(mask[0]))
+            except:
+                pass
+            for x in firstRange:
+                for y in secondRange:
+                    try:
+                        if(mask[x][y][0]):
+                            distToTopLeft=x*x+y*y
+                            if(distToTopLeft<minDistanceTopLeft):
+                                minDistanceTopLeft=distToTopLeft
+                                x1=x
+                                y1=y
+                            distToTopRight=(x-width)*(x-width)+y*y
+                            if(distToTopRight<minDistanceTopRight):
+                                minDistanceTopRight=distToTopRight
+                                x2=x
+                                y2=y
+                            distToBottomLeft=x*x+(y-height)*(y-height)
+                            if(distToBottomLeft<minDistanceBottomLeft):
+                                minDistanceBottomLeft=distToBottomLeft
+                                x4=x
+                                y4=y
+                            distToBottomRight=(x-width)*(x-width)+(y-height)*(y-height)
+                            if(distToBottomRight<minDistanceBottomRight):
+                                minDistanceBottomRight=distToBottomRight
+                                x3=x
+                                y3=y
+                    except:
+                        pass
+            if x1==0:
+                if x2==0:
+                    return [[]]                        
+            toReturn=np.array([y1, x1, y4, x4, y3, x3, y2, x2, 1])
+            return [toReturn.tolist()]
+        except:
+            return [[]]
