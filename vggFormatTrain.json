@@ -5,7 +5,7 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [432, 698, 696, 428 ],
+				"all_points_x": [432, 698, 698, 428 ],
 				"all_points_y": [253, 264, 525, 528 ],
 				"name":"polygon"
 			}
@@ -18,8 +18,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [307, 609, 610, 305 ],
-				"all_points_y": [210, 238, 527, 533 ],
+				"all_points_x": [307, 609, 611, 303 ],
+				"all_points_y": [210, 236, 527, 533 ],
 				"name":"polygon"
 			}
 		}
@@ -31,8 +31,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [383, 711, 715, 382 ],
-				"all_points_y": [177, 207, 535, 543 ],
+				"all_points_x": [382, 712, 718, 380 ],
+				"all_points_y": [175, 205, 536, 544 ],
 				"name":"polygon"
 			}
 		}
@@ -44,8 +44,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [352, 794, 799, 350 ],
-				"all_points_y": [63, 110, 538, 548 ],
+				"all_points_x": [356, 797, 800, 346 ],
+				"all_points_y": [63, 106, 539, 547 ],
 				"name":"polygon"
 			}
 		}
@@ -57,8 +57,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [570, 1019, 1038, 566 ],
-				"all_points_y": [142, 140, 595, 597 ],
+				"all_points_x": [570, 1024, 1040, 567 ],
+				"all_points_y": [140, 138, 596, 599 ],
 				"name":"polygon"
 			}
 		}
@@ -70,8 +70,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [504, 903, 913, 494 ],
-				"all_points_y": [191, 173, 588, 587 ],
+				"all_points_x": [502, 906, 914, 494 ],
+				"all_points_y": [190, 168, 589, 589 ],
 				"name":"polygon"
 			}
 		}
@@ -83,8 +83,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [410, 750, 753, 403 ],
-				"all_points_y": [256, 245, 594, 594 ],
+				"all_points_x": [408, 750, 756, 402 ],
+				"all_points_y": [254, 245, 595, 597 ],
 				"name":"polygon"
 			}
 		}
@@ -96,8 +96,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [402, 644, 646, 397 ],
-				"all_points_y": [326, 330, 571, 575 ],
+				"all_points_x": [402, 646, 648, 397 ],
+				"all_points_y": [326, 328, 572, 575 ],
 				"name":"polygon"
 			}
 		}
@@ -109,8 +109,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [385, 720, 722, 378 ],
-				"all_points_y": [254, 255, 592, 592 ],
+				"all_points_x": [385, 720, 724, 380 ],
+				"all_points_y": [254, 255, 593, 594 ],
 				"name":"polygon"
 			}
 		}
@@ -122,8 +122,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [417, 860, 871, 411 ],
-				"all_points_y": [152, 150, 594, 600 ],
+				"all_points_x": [417, 862, 874, 409 ],
+				"all_points_y": [150, 148, 595, 600 ],
 				"name":"polygon"
 			}
 		}
@@ -135,8 +135,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [442, 878, 891, 436 ],
-				"all_points_y": [160, 158, 594, 598 ],
+				"all_points_x": [442, 879, 893, 437 ],
+				"all_points_y": [160, 156, 595, 601 ],
 				"name":"polygon"
 			}
 		}
@@ -148,8 +148,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [447, 844, 862, 440 ],
-				"all_points_y": [192, 191, 594, 597 ],
+				"all_points_x": [447, 847, 858, 440 ],
+				"all_points_y": [192, 190, 594, 597 ],
 				"name":"polygon"
 			}
 		}
@@ -161,8 +161,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [353, 690, 691, 346 ],
-				"all_points_y": [254, 260, 596, 600 ],
+				"all_points_x": [353, 689, 694, 346 ],
+				"all_points_y": [254, 263, 596, 600 ],
 				"name":"polygon"
 			}
 		}
@@ -174,8 +174,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [449, 748, 753, 450 ],
-				"all_points_y": [293, 297, 596, 595 ],
+				"all_points_x": [449, 748, 754, 447 ],
+				"all_points_y": [293, 297, 593, 597 ],
 				"name":"polygon"
 			}
 		}
@@ -200,8 +200,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [508, 724, 724, 505 ],
-				"all_points_y": [395, 398, 618, 616 ],
+				"all_points_x": [508, 724, 726, 505 ],
+				"all_points_y": [395, 398, 616, 616 ],
 				"name":"polygon"
 			}
 		}
@@ -213,8 +213,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [590, 789, 793, 587 ],
-				"all_points_y": [414, 416, 616, 615 ],
+				"all_points_x": [590, 790, 792, 587 ],
+				"all_points_y": [414, 413, 618, 618 ],
 				"name":"polygon"
 			}
 		}
@@ -226,8 +226,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [654, 946, 960, 661 ],
-				"all_points_y": [345, 321, 631, 630 ],
+				"all_points_x": [657, 948, 963, 660 ],
+				"all_points_y": [345, 319, 631, 633 ],
 				"name":"polygon"
 			}
 		}
@@ -239,8 +239,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [580, 916, 927, 574 ],
-				"all_points_y": [310, 289, 648, 641 ],
+				"all_points_x": [578, 916, 927, 573 ],
+				"all_points_y": [309, 289, 648, 644 ],
 				"name":"polygon"
 			}
 		}
@@ -252,8 +252,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [452, 834, 847, 440 ],
-				"all_points_y": [252, 253, 638, 642 ],
+				"all_points_x": [448, 836, 848, 440 ],
+				"all_points_y": [253, 251, 641, 642 ],
 				"name":"polygon"
 			}
 		}
@@ -265,8 +265,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [582, 995, 1009, 579 ],
-				"all_points_y": [236, 224, 643, 644 ],
+				"all_points_x": [581, 993, 1012, 578 ],
+				"all_points_y": [234, 223, 643, 649 ],
 				"name":"polygon"
 			}
 		}
@@ -278,8 +278,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [372, 791, 804, 357 ],
-				"all_points_y": [138, 212, 648, 662 ],
+				"all_points_x": [373, 794, 807, 354 ],
+				"all_points_y": [137, 213, 651, 665 ],
 				"name":"polygon"
 			}
 		}
@@ -291,8 +291,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [667, 869, 876, 672 ],
-				"all_points_y": [406, 447, 713, 724 ],
+				"all_points_x": [667, 864, 874, 672 ],
+				"all_points_y": [406, 445, 715, 724 ],
 				"name":"polygon"
 			}
 		}
@@ -304,8 +304,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [870, 981, 1003, 889 ],
-				"all_points_y": [461, 475, 754, 757 ],
+				"all_points_x": [870, 985, 1005, 889 ],
+				"all_points_y": [461, 475, 756, 759 ],
 				"name":"polygon"
 			}
 		}
@@ -317,8 +317,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [606, 862, 874, 604 ],
-				"all_points_y": [444, 475, 761, 767 ],
+				"all_points_x": [606, 863, 875, 604 ],
+				"all_points_y": [444, 473, 762, 769 ],
 				"name":"polygon"
 			}
 		}
@@ -330,8 +330,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [509, 803, 813, 505 ],
-				"all_points_y": [425, 451, 763, 770 ],
+				"all_points_x": [509, 803, 813, 502 ],
+				"all_points_y": [425, 451, 763, 769 ],
 				"name":"polygon"
 			}
 		}
@@ -343,8 +343,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [401, 749, 759, 385 ],
-				"all_points_y": [369, 407, 758, 762 ],
+				"all_points_x": [400, 750, 760, 381 ],
+				"all_points_y": [367, 405, 761, 765 ],
 				"name":"polygon"
 			}
 		}
@@ -356,8 +356,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [625, 838, 843, 625 ],
-				"all_points_y": [521, 523, 741, 744 ],
+				"all_points_x": [623, 838, 844, 625 ],
+				"all_points_y": [520, 523, 740, 744 ],
 				"name":"polygon"
 			}
 		}
@@ -369,8 +369,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [434, 613, 612, 426 ],
-				"all_points_y": [545, 552, 738, 735 ],
+				"all_points_x": [434, 613, 614, 426 ],
+				"all_points_y": [545, 552, 735, 737 ],
 				"name":"polygon"
 			}
 		}
@@ -382,8 +382,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [473, 653, 651, 473 ],
-				"all_points_y": [399, 407, 584, 585 ],
+				"all_points_x": [474, 648, 648, 473 ],
+				"all_points_y": [404, 411, 584, 585 ],
 				"name":"polygon"
 			}
 		}
@@ -395,8 +395,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [471, 651, 649, 468 ],
-				"all_points_y": [400, 406, 584, 585 ],
+				"all_points_x": [474, 649, 648, 472 ],
+				"all_points_y": [403, 410, 583, 587 ],
 				"name":"polygon"
 			}
 		}
@@ -408,8 +408,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [741, 915, 921, 743 ],
-				"all_points_y": [399, 397, 571, 575 ],
+				"all_points_x": [740, 915, 922, 743 ],
+				"all_points_y": [398, 397, 573, 575 ],
 				"name":"polygon"
 			}
 		}
@@ -421,8 +421,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [599, 773, 775, 600 ],
-				"all_points_y": [397, 401, 573, 574 ],
+				"all_points_x": [598, 772, 775, 598 ],
+				"all_points_y": [398, 399, 573, 576 ],
 				"name":"polygon"
 			}
 		}
@@ -434,8 +434,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [576, 784, 791, 579 ],
-				"all_points_y": [379, 378, 590, 591 ],
+				"all_points_x": [577, 786, 791, 578 ],
+				"all_points_y": [381, 376, 590, 592 ],
 				"name":"polygon"
 			}
 		}
@@ -460,8 +460,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [133, 406, 407, 126 ],
-				"all_points_y": [326, 333, 609, 609 ],
+				"all_points_x": [133, 410, 407, 121 ],
+				"all_points_y": [327, 335, 607, 608 ],
 				"name":"polygon"
 			}
 		}
@@ -473,8 +473,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [687, 974, 984, 690 ],
-				"all_points_y": [314, 295, 591, 592 ],
+				"all_points_x": [688, 974, 986, 691 ],
+				"all_points_y": [313, 292, 593, 594 ],
 				"name":"polygon"
 			}
 		}
@@ -486,8 +486,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [523, 969, 991, 520 ],
-				"all_points_y": [179, 171, 622, 622 ],
+				"all_points_x": [523, 970, 991, 520 ],
+				"all_points_y": [179, 166, 622, 625 ],
 				"name":"polygon"
 			}
 		}
@@ -499,8 +499,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [437, 810, 810, 428 ],
-				"all_points_y": [241, 238, 618, 616 ],
+				"all_points_x": [436, 808, 815, 427 ],
+				"all_points_y": [243, 243, 620, 620 ],
 				"name":"polygon"
 			}
 		}
@@ -512,8 +512,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [459, 768, 776, 453 ],
-				"all_points_y": [297, 290, 610, 612 ],
+				"all_points_x": [457, 770, 778, 452 ],
+				"all_points_y": [295, 293, 610, 614 ],
 				"name":"polygon"
 			}
 		}
@@ -525,8 +525,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [355, 536, 533, 349 ],
-				"all_points_y": [407, 411, 589, 588 ],
+				"all_points_x": [353, 536, 534, 348 ],
+				"all_points_y": [406, 410, 590, 590 ],
 				"name":"polygon"
 			}
 		}
@@ -538,8 +538,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [570, 749, 753, 570 ],
-				"all_points_y": [402, 395, 580, 582 ],
+				"all_points_x": [569, 749, 753, 570 ],
+				"all_points_y": [401, 395, 580, 582 ],
 				"name":"polygon"
 			}
 		}
@@ -564,8 +564,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [566, 767, 770, 565 ],
-				"all_points_y": [395, 390, 592, 594 ],
+				"all_points_x": [570, 765, 768, 568 ],
+				"all_points_y": [397, 392, 592, 594 ],
 				"name":"polygon"
 			}
 		}
@@ -577,8 +577,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [631, 826, 833, 629 ],
-				"all_points_y": [391, 385, 588, 593 ],
+				"all_points_x": [631, 828, 833, 629 ],
+				"all_points_y": [391, 385, 591, 593 ],
 				"name":"polygon"
 			}
 		}
@@ -590,8 +590,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [488, 739, 747, 485 ],
-				"all_points_y": [347, 338, 602, 606 ],
+				"all_points_x": [488, 742, 749, 488 ],
+				"all_points_y": [347, 340, 603, 605 ],
 				"name":"polygon"
 			}
 		}
@@ -603,8 +603,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [330, 836, 854, 307 ],
-				"all_points_y": [150, 175, 673, 682 ],
+				"all_points_x": [327, 839, 856, 304 ],
+				"all_points_y": [150, 171, 676, 685 ],
 				"name":"polygon"
 			}
 		}
@@ -616,8 +616,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [459, 929, 957, 441 ],
-				"all_points_y": [184, 221, 696, 706 ],
+				"all_points_x": [455, 932, 960, 439 ],
+				"all_points_y": [181, 219, 700, 711 ],
 				"name":"polygon"
 			}
 		}
@@ -629,8 +629,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [471, 875, 887, 461 ],
-				"all_points_y": [246, 287, 691, 705 ],
+				"all_points_x": [471, 875, 890, 461 ],
+				"all_points_y": [246, 287, 693, 705 ],
 				"name":"polygon"
 			}
 		}
@@ -642,8 +642,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [520, 843, 853, 515 ],
-				"all_points_y": [318, 345, 677, 685 ],
+				"all_points_x": [520, 843, 854, 514 ],
+				"all_points_y": [318, 345, 681, 687 ],
 				"name":"polygon"
 			}
 		}
@@ -655,8 +655,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [551, 825, 828, 552 ],
-				"all_points_y": [247, 266, 548, 561 ],
+				"all_points_x": [549, 826, 831, 550 ],
+				"all_points_y": [248, 269, 551, 558 ],
 				"name":"polygon"
 			}
 		}
@@ -668,8 +668,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [441, 646, 641, 439 ],
-				"all_points_y": [310, 335, 553, 559 ],
+				"all_points_x": [442, 644, 642, 439 ],
+				"all_points_y": [312, 336, 553, 559 ],
 				"name":"polygon"
 			}
 		}
@@ -681,8 +681,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [428, 593, 590, 428 ],
-				"all_points_y": [298, 321, 544, 549 ],
+				"all_points_x": [428, 593, 592, 425 ],
+				"all_points_y": [298, 321, 547, 550 ],
 				"name":"polygon"
 			}
 		}
@@ -694,8 +694,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [482, 598, 597, 485 ],
-				"all_points_y": [289, 330, 560, 566 ],
+				"all_points_x": [482, 596, 596, 483 ],
+				"all_points_y": [287, 327, 561, 568 ],
 				"name":"polygon"
 			}
 		}
@@ -733,8 +733,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [661, 779, 780, 668 ],
-				"all_points_y": [273, 311, 552, 558 ],
+				"all_points_x": [660, 779, 781, 665 ],
+				"all_points_y": [270, 311, 553, 559 ],
 				"name":"polygon"
 			}
 		}
@@ -746,8 +746,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [594, 726, 726, 592 ],
-				"all_points_y": [247, 288, 550, 556 ],
+				"all_points_x": [592, 726, 726, 592 ],
+				"all_points_y": [238, 288, 550, 556 ],
 				"name":"polygon"
 			}
 		}
@@ -759,8 +759,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [442, 638, 637, 434 ],
-				"all_points_y": [152, 236, 563, 575 ],
+				"all_points_x": [441, 637, 636, 434 ],
+				"all_points_y": [149, 232, 564, 575 ],
 				"name":"polygon"
 			}
 		}
@@ -785,8 +785,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [437, 983, 1005, 428 ],
-				"all_points_y": [26, 31, 578, 589 ],
+				"all_points_x": [434, 986, 1008, 428 ],
+				"all_points_y": [25, 30, 582, 591 ],
 				"name":"polygon"
 			}
 		}
@@ -798,8 +798,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [383, 900, 919, 376 ],
-				"all_points_y": [57, 51, 570, 575 ],
+				"all_points_x": [383, 901, 915, 375 ],
+				"all_points_y": [53, 51, 570, 575 ],
 				"name":"polygon"
 			}
 		}
@@ -811,8 +811,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [435, 948, 969, 427 ],
-				"all_points_y": [68, 57, 585, 577 ],
+				"all_points_x": [432, 952, 969, 426 ],
+				"all_points_y": [65, 53, 581, 583 ],
 				"name":"polygon"
 			}
 		}
@@ -824,8 +824,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [551, 1011, 1029, 551 ],
-				"all_points_y": [120, 102, 572, 571 ],
+				"all_points_x": [550, 1012, 1029, 549 ],
+				"all_points_y": [119, 99, 572, 575 ],
 				"name":"polygon"
 			}
 		}
@@ -837,8 +837,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [383, 791, 798, 376 ],
-				"all_points_y": [160, 165, 570, 578 ],
+				"all_points_x": [382, 792, 801, 376 ],
+				"all_points_y": [159, 163, 571, 578 ],
 				"name":"polygon"
 			}
 		}
@@ -850,8 +850,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [489, 758, 762, 489 ],
-				"all_points_y": [271, 273, 541, 547 ],
+				"all_points_x": [489, 761, 765, 488 ],
+				"all_points_y": [270, 271, 541, 545 ],
 				"name":"polygon"
 			}
 		}
@@ -863,8 +863,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [457, 698, 701, 456 ],
-				"all_points_y": [297, 304, 544, 543 ],
+				"all_points_x": [457, 701, 702, 454 ],
+				"all_points_y": [297, 301, 545, 547 ],
 				"name":"polygon"
 			}
 		}
@@ -876,8 +876,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [496, 723, 727, 495 ],
-				"all_points_y": [314, 319, 540, 542 ],
+				"all_points_x": [496, 722, 724, 495 ],
+				"all_points_y": [314, 317, 542, 543 ],
 				"name":"polygon"
 			}
 		}
@@ -889,8 +889,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [520, 745, 744, 518 ],
-				"all_points_y": [312, 313, 537, 540 ],
+				"all_points_x": [520, 747, 748, 517 ],
+				"all_points_y": [312, 313, 539, 541 ],
 				"name":"polygon"
 			}
 		}
@@ -902,8 +902,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [563, 803, 808, 558 ],
-				"all_points_y": [307, 305, 549, 552 ],
+				"all_points_x": [561, 803, 807, 558 ],
+				"all_points_y": [307, 305, 552, 552 ],
 				"name":"polygon"
 			}
 		}
@@ -915,8 +915,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [521, 785, 788, 521 ],
-				"all_points_y": [292, 283, 546, 549 ],
+				"all_points_x": [525, 785, 790, 523 ],
+				"all_points_y": [289, 283, 550, 552 ],
 				"name":"polygon"
 			}
 		}
@@ -928,8 +928,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [454, 724, 729, 447 ],
-				"all_points_y": [266, 266, 545, 545 ],
+				"all_points_x": [450, 729, 732, 447 ],
+				"all_points_y": [266, 266, 547, 548 ],
 				"name":"polygon"
 			}
 		}
@@ -941,8 +941,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [440, 725, 728, 440 ],
-				"all_points_y": [263, 254, 546, 546 ],
+				"all_points_x": [440, 725, 729, 438 ],
+				"all_points_y": [263, 260, 547, 548 ],
 				"name":"polygon"
 			}
 		}
@@ -954,8 +954,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [503, 795, 800, 505 ],
-				"all_points_y": [253, 252, 546, 543 ],
+				"all_points_x": [503, 797, 800, 501 ],
+				"all_points_y": [253, 247, 546, 546 ],
 				"name":"polygon"
 			}
 		}
@@ -967,8 +967,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [540, 875, 882, 537 ],
-				"all_points_y": [231, 215, 566, 565 ],
+				"all_points_x": [537, 878, 884, 536 ],
+				"all_points_y": [227, 215, 567, 568 ],
 				"name":"polygon"
 			}
 		}
@@ -980,8 +980,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [354, 846, 852, 343 ],
-				"all_points_y": [77, 73, 571, 571 ],
+				"all_points_x": [352, 847, 858, 339 ],
+				"all_points_y": [75, 72, 573, 575 ],
 				"name":"polygon"
 			}
 		}
@@ -993,8 +993,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [454, 803, 807, 454 ],
-				"all_points_y": [212, 221, 561, 566 ],
+				"all_points_x": [456, 804, 812, 456 ],
+				"all_points_y": [215, 218, 564, 568 ],
 				"name":"polygon"
 			}
 		}
@@ -1006,8 +1006,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [542, 832, 835, 544 ],
-				"all_points_y": [271, 269, 558, 563 ],
+				"all_points_x": [542, 832, 836, 542 ],
+				"all_points_y": [271, 269, 562, 564 ],
 				"name":"polygon"
 			}
 		}
@@ -1019,8 +1019,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [584, 828, 831, 584 ],
-				"all_points_y": [302, 301, 547, 546 ],
+				"all_points_x": [581, 829, 833, 582 ],
+				"all_points_y": [300, 300, 547, 549 ],
 				"name":"polygon"
 			}
 		}
@@ -1032,8 +1032,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [523, 736, 737, 522 ],
-				"all_points_y": [323, 326, 541, 540 ],
+				"all_points_x": [523, 737, 737, 522 ],
+				"all_points_y": [323, 324, 538, 540 ],
 				"name":"polygon"
 			}
 		}
@@ -1136,8 +1136,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [513, 829, 844, 513 ],
-				"all_points_y": [248, 210, 578, 571 ],
+				"all_points_x": [513, 830, 843, 513 ],
+				"all_points_y": [248, 208, 575, 573 ],
 				"name":"polygon"
 			}
 		}
@@ -1149,8 +1149,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [460, 691, 695, 457 ],
-				"all_points_y": [312, 292, 555, 556 ],
+				"all_points_x": [460, 693, 697, 460 ],
+				"all_points_y": [312, 293, 556, 555 ],
 				"name":"polygon"
 			}
 		}
@@ -1162,8 +1162,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [528, 760, 761, 529 ],
-				"all_points_y": [229, 212, 475, 466 ],
+				"all_points_x": [531, 763, 763, 530 ],
+				"all_points_y": [228, 212, 475, 467 ],
 				"name":"polygon"
 			}
 		}
@@ -1201,8 +1201,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [444, 696, 698, 445 ],
-				"all_points_y": [212, 193, 482, 472 ],
+				"all_points_x": [445, 696, 696, 444 ],
+				"all_points_y": [215, 201, 480, 474 ],
 				"name":"polygon"
 			}
 		}
@@ -1227,8 +1227,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [428, 694, 699, 431 ],
-				"all_points_y": [207, 190, 483, 481 ],
+				"all_points_x": [432, 698, 699, 432 ],
+				"all_points_y": [206, 189, 484, 479 ],
 				"name":"polygon"
 			}
 		}
@@ -1241,7 +1241,7 @@
 			"region_attributes": {},
 			"shape_attributes": {
 				"all_points_x": [464, 739, 738, 463 ],
-				"all_points_y": [202, 185, 491, 484 ],
+				"all_points_y": [202, 185, 487, 484 ],
 				"name":"polygon"
 			}
 		}
@@ -1253,8 +1253,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [517, 797, 800, 516 ],
-				"all_points_y": [195, 174, 492, 481 ],
+				"all_points_x": [517, 797, 800, 514 ],
+				"all_points_y": [195, 174, 490, 481 ],
 				"name":"polygon"
 			}
 		}
@@ -1266,8 +1266,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [567, 859, 858, 561 ],
-				"all_points_y": [190, 170, 491, 483 ],
+				"all_points_x": [567, 857, 857, 561 ],
+				"all_points_y": [190, 166, 494, 485 ],
 				"name":"polygon"
 			}
 		}
@@ -1279,8 +1279,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [586, 889, 888, 582 ],
-				"all_points_y": [181, 162, 497, 488 ],
+				"all_points_x": [586, 890, 888, 582 ],
+				"all_points_y": [181, 159, 497, 488 ],
 				"name":"polygon"
 			}
 		}
@@ -1292,8 +1292,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [596, 908, 905, 585 ],
-				"all_points_y": [176, 149, 499, 486 ],
+				"all_points_x": [594, 908, 905, 587 ],
+				"all_points_y": [173, 149, 499, 487 ],
 				"name":"polygon"
 			}
 		}
@@ -1305,8 +1305,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [593, 919, 917, 590 ],
-				"all_points_y": [165, 142, 501, 489 ],
+				"all_points_x": [593, 920, 919, 590 ],
+				"all_points_y": [165, 139, 501, 489 ],
 				"name":"polygon"
 			}
 		}
@@ -1318,8 +1318,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [571, 911, 907, 566 ],
-				"all_points_y": [154, 131, 500, 492 ],
+				"all_points_x": [571, 910, 910, 567 ],
+				"all_points_y": [154, 129, 501, 490 ],
 				"name":"polygon"
 			}
 		}
@@ -1344,8 +1344,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [445, 881, 877, 438 ],
-				"all_points_y": [71, 78, 509, 508 ],
+				"all_points_x": [444, 883, 879, 438 ],
+				"all_points_y": [69, 77, 512, 509 ],
 				"name":"polygon"
 			}
 		}
@@ -1357,8 +1357,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [312, 732, 729, 304 ],
-				"all_points_y": [51, 95, 500, 509 ],
+				"all_points_x": [312, 732, 729, 308 ],
+				"all_points_y": [51, 95, 500, 508 ],
 				"name":"polygon"
 			}
 		}
@@ -1383,8 +1383,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [457, 641, 638, 456 ],
-				"all_points_y": [240, 262, 455, 457 ],
+				"all_points_x": [457, 640, 640, 455 ],
+				"all_points_y": [243, 259, 455, 457 ],
 				"name":"polygon"
 			}
 		}
@@ -1396,8 +1396,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [544, 716, 711, 542 ],
-				"all_points_y": [260, 274, 456, 457 ],
+				"all_points_x": [545, 716, 711, 542 ],
+				"all_points_y": [259, 274, 456, 457 ],
 				"name":"polygon"
 			}
 		}
@@ -1409,8 +1409,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [570, 730, 725, 568 ],
-				"all_points_y": [271, 283, 454, 461 ],
+				"all_points_x": [568, 728, 725, 566 ],
+				"all_points_y": [270, 284, 459, 460 ],
 				"name":"polygon"
 			}
 		}
@@ -1422,8 +1422,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [446, 601, 597, 445 ],
-				"all_points_y": [267, 283, 454, 461 ],
+				"all_points_x": [446, 601, 598, 443 ],
+				"all_points_y": [267, 283, 457, 459 ],
 				"name":"polygon"
 			}
 		}
@@ -1435,8 +1435,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [471, 606, 606, 471 ],
-				"all_points_y": [262, 279, 459, 459 ],
+				"all_points_x": [471, 610, 608, 473 ],
+				"all_points_y": [262, 278, 460, 462 ],
 				"name":"polygon"
 			}
 		}
@@ -1449,7 +1449,7 @@
 			"region_attributes": {},
 			"shape_attributes": {
 				"all_points_x": [412, 569, 567, 414 ],
-				"all_points_y": [237, 257, 451, 456 ],
+				"all_points_y": [237, 257, 453, 456 ],
 				"name":"polygon"
 			}
 		}
@@ -1461,8 +1461,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [488, 673, 670, 483 ],
-				"all_points_y": [223, 248, 461, 465 ],
+				"all_points_x": [487, 674, 670, 483 ],
+				"all_points_y": [223, 245, 461, 465 ],
 				"name":"polygon"
 			}
 		}
@@ -1487,8 +1487,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [471, 712, 708, 461 ],
-				"all_points_y": [255, 290, 557, 560 ],
+				"all_points_x": [468, 713, 710, 460 ],
+				"all_points_y": [251, 289, 558, 563 ],
 				"name":"polygon"
 			}
 		}
@@ -1500,8 +1500,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [528, 857, 860, 518 ],
-				"all_points_y": [221, 267, 620, 630 ],
+				"all_points_x": [530, 855, 860, 520 ],
+				"all_points_y": [222, 269, 622, 628 ],
 				"name":"polygon"
 			}
 		}
@@ -1513,8 +1513,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [563, 954, 962, 554 ],
-				"all_points_y": [155, 204, 605, 618 ],
+				"all_points_x": [562, 954, 962, 552 ],
+				"all_points_y": [155, 201, 611, 616 ],
 				"name":"polygon"
 			}
 		}
@@ -1526,8 +1526,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [380, 849, 847, 365 ],
-				"all_points_y": [70, 122, 583, 589 ],
+				"all_points_x": [378, 848, 850, 362 ],
+				"all_points_y": [67, 119, 583, 589 ],
 				"name":"polygon"
 			}
 		}
@@ -1539,8 +1539,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [388, 921, 920, 372 ],
-				"all_points_y": [51, 70, 597, 594 ],
+				"all_points_x": [388, 921, 922, 372 ],
+				"all_points_y": [48, 70, 599, 597 ],
 				"name":"polygon"
 			}
 		}
@@ -1552,8 +1552,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [471, 980, 983, 459 ],
-				"all_points_y": [76, 74, 592, 589 ],
+				"all_points_x": [470, 982, 986, 458 ],
+				"all_points_y": [75, 73, 593, 592 ],
 				"name":"polygon"
 			}
 		}
@@ -1565,8 +1565,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [471, 843, 842, 462 ],
-				"all_points_y": [193, 204, 573, 573 ],
+				"all_points_x": [472, 843, 842, 462 ],
+				"all_points_y": [196, 204, 575, 573 ],
 				"name":"polygon"
 			}
 		}
@@ -1591,8 +1591,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [599, 874, 877, 596 ],
-				"all_points_y": [278, 281, 556, 556 ],
+				"all_points_x": [601, 874, 873, 598 ],
+				"all_points_y": [280, 284, 557, 555 ],
 				"name":"polygon"
 			}
 		}
@@ -1604,8 +1604,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [725, 975, 978, 724 ],
-				"all_points_y": [307, 308, 554, 551 ],
+				"all_points_x": [730, 975, 975, 727 ],
+				"all_points_y": [307, 308, 556, 551 ],
 				"name":"polygon"
 			}
 		}
@@ -1617,8 +1617,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [511, 725, 725, 507 ],
-				"all_points_y": [317, 324, 541, 538 ],
+				"all_points_x": [511, 727, 724, 507 ],
+				"all_points_y": [317, 323, 542, 538 ],
 				"name":"polygon"
 			}
 		}
@@ -1643,8 +1643,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [545, 729, 725, 541 ],
-				"all_points_y": [348, 356, 540, 534 ],
+				"all_points_x": [545, 729, 725, 542 ],
+				"all_points_y": [348, 356, 538, 534 ],
 				"name":"polygon"
 			}
 		}
@@ -1656,8 +1656,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [626, 798, 794, 621 ],
-				"all_points_y": [346, 349, 521, 518 ],
+				"all_points_x": [626, 798, 796, 622 ],
+				"all_points_y": [346, 349, 521, 520 ],
 				"name":"polygon"
 			}
 		}
@@ -1669,8 +1669,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [527, 692, 691, 525 ],
-				"all_points_y": [343, 347, 515, 514 ],
+				"all_points_x": [527, 694, 693, 524 ],
+				"all_points_y": [343, 345, 514, 512 ],
 				"name":"polygon"
 			}
 		}
@@ -1682,8 +1682,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [542, 711, 706, 538 ],
-				"all_points_y": [342, 343, 513, 511 ],
+				"all_points_x": [541, 709, 706, 538 ],
+				"all_points_y": [342, 344, 513, 511 ],
 				"name":"polygon"
 			}
 		}
@@ -1695,8 +1695,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [639, 812, 808, 634 ],
-				"all_points_y": [339, 343, 516, 515 ],
+				"all_points_x": [638, 813, 810, 636 ],
+				"all_points_y": [338, 341, 516, 514 ],
 				"name":"polygon"
 			}
 		}
@@ -1721,8 +1721,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [522, 730, 726, 516 ],
-				"all_points_y": [328, 337, 542, 537 ],
+				"all_points_x": [522, 730, 727, 517 ],
+				"all_points_y": [328, 335, 543, 539 ],
 				"name":"polygon"
 			}
 		}
@@ -1734,8 +1734,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [466, 698, 694, 464 ],
-				"all_points_y": [311, 317, 547, 540 ],
+				"all_points_x": [466, 698, 694, 462 ],
+				"all_points_y": [306, 315, 545, 541 ],
 				"name":"polygon"
 			}
 		}
@@ -1773,8 +1773,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [300, 654, 645, 290 ],
-				"all_points_y": [215, 233, 575, 571 ],
+				"all_points_x": [299, 652, 649, 287 ],
+				"all_points_y": [213, 231, 577, 575 ],
 				"name":"polygon"
 			}
 		}
@@ -1786,8 +1786,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [454, 864, 866, 445 ],
-				"all_points_y": [160, 171, 576, 575 ],
+				"all_points_x": [454, 867, 868, 444 ],
+				"all_points_y": [158, 166, 579, 576 ],
 				"name":"polygon"
 			}
 		}
@@ -1799,8 +1799,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [374, 868, 868, 360 ],
-				"all_points_y": [85, 100, 590, 588 ],
+				"all_points_x": [376, 871, 870, 358 ],
+				"all_points_y": [83, 98, 591, 588 ],
 				"name":"polygon"
 			}
 		}
@@ -1812,8 +1812,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [424, 943, 943, 405 ],
-				"all_points_y": [75, 71, 600, 592 ],
+				"all_points_x": [422, 944, 947, 405 ],
+				"all_points_y": [73, 70, 601, 592 ],
 				"name":"polygon"
 			}
 		}
@@ -1825,8 +1825,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [510, 946, 951, 498 ],
-				"all_points_y": [152, 132, 600, 583 ],
+				"all_points_x": [508, 948, 951, 498 ],
+				"all_points_y": [154, 131, 600, 583 ],
 				"name":"polygon"
 			}
 		}
@@ -1838,8 +1838,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [509, 929, 929, 502 ],
-				"all_points_y": [169, 147, 590, 575 ],
+				"all_points_x": [514, 930, 932, 500 ],
+				"all_points_y": [167, 145, 589, 576 ],
 				"name":"polygon"
 			}
 		}
@@ -1851,8 +1851,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [504, 805, 803, 492 ],
-				"all_points_y": [312, 295, 632, 623 ],
+				"all_points_x": [504, 805, 806, 492 ],
+				"all_points_y": [312, 295, 634, 623 ],
 				"name":"polygon"
 			}
 		}
@@ -1864,8 +1864,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [556, 820, 824, 552 ],
-				"all_points_y": [347, 333, 630, 620 ],
+				"all_points_x": [556, 820, 824, 549 ],
+				"all_points_y": [347, 328, 630, 621 ],
 				"name":"polygon"
 			}
 		}
@@ -1877,8 +1877,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [620, 857, 858, 614 ],
-				"all_points_y": [362, 345, 620, 609 ],
+				"all_points_x": [620, 858, 861, 615 ],
+				"all_points_y": [362, 344, 619, 611 ],
 				"name":"polygon"
 			}
 		}
@@ -1890,8 +1890,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [679, 898, 902, 681 ],
-				"all_points_y": [378, 361, 611, 603 ],
+				"all_points_x": [682, 898, 901, 680 ],
+				"all_points_y": [378, 361, 611, 604 ],
 				"name":"polygon"
 			}
 		}
@@ -1916,8 +1916,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [632, 846, 846, 632 ],
-				"all_points_y": [385, 374, 611, 602 ],
+				"all_points_x": [632, 848, 848, 631 ],
+				"all_points_y": [383, 372, 610, 602 ],
 				"name":"polygon"
 			}
 		}
@@ -1929,8 +1929,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [590, 800, 800, 581 ],
-				"all_points_y": [376, 368, 601, 590 ],
+				"all_points_x": [586, 800, 804, 584 ],
+				"all_points_y": [375, 365, 599, 593 ],
 				"name":"polygon"
 			}
 		}
@@ -1942,8 +1942,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [593, 803, 805, 589 ],
-				"all_points_y": [376, 367, 595, 587 ],
+				"all_points_x": [591, 803, 805, 589 ],
+				"all_points_y": [374, 365, 593, 589 ],
 				"name":"polygon"
 			}
 		}
@@ -1955,8 +1955,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [565, 774, 774, 559 ],
-				"all_points_y": [371, 364, 588, 583 ],
+				"all_points_x": [563, 773, 775, 559 ],
+				"all_points_y": [369, 361, 589, 585 ],
 				"name":"polygon"
 			}
 		}
@@ -1968,8 +1968,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [580, 789, 789, 577 ],
-				"all_points_y": [369, 364, 589, 582 ],
+				"all_points_x": [580, 791, 791, 575 ],
+				"all_points_y": [369, 361, 590, 585 ],
 				"name":"polygon"
 			}
 		}
@@ -1981,8 +1981,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [589, 801, 803, 584 ],
-				"all_points_y": [374, 362, 592, 589 ],
+				"all_points_x": [590, 801, 805, 588 ],
+				"all_points_y": [372, 363, 593, 587 ],
 				"name":"polygon"
 			}
 		}
@@ -1994,8 +1994,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [585, 795, 795, 579 ],
-				"all_points_y": [379, 373, 598, 594 ],
+				"all_points_x": [583, 796, 798, 579 ],
+				"all_points_y": [378, 371, 599, 594 ],
 				"name":"polygon"
 			}
 		}
@@ -2007,8 +2007,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [524, 736, 735, 517 ],
-				"all_points_y": [376, 372, 596, 592 ],
+				"all_points_x": [524, 738, 736, 517 ],
+				"all_points_y": [376, 371, 599, 592 ],
 				"name":"polygon"
 			}
 		}
@@ -2020,8 +2020,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [504, 717, 714, 495 ],
-				"all_points_y": [373, 368, 593, 586 ],
+				"all_points_x": [501, 717, 715, 495 ],
+				"all_points_y": [372, 368, 595, 589 ],
 				"name":"polygon"
 			}
 		}
@@ -2033,8 +2033,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [521, 739, 733, 516 ],
-				"all_points_y": [371, 371, 595, 590 ],
+				"all_points_x": [521, 736, 736, 516 ],
+				"all_points_y": [371, 369, 595, 590 ],
 				"name":"polygon"
 			}
 		}
@@ -2059,8 +2059,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [487, 706, 706, 480 ],
-				"all_points_y": [373, 376, 599, 592 ],
+				"all_points_x": [487, 705, 706, 481 ],
+				"all_points_y": [373, 373, 599, 593 ],
 				"name":"polygon"
 			}
 		}
@@ -2072,8 +2072,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [480, 698, 698, 471 ],
-				"all_points_y": [373, 374, 599, 594 ],
+				"all_points_x": [479, 697, 698, 471 ],
+				"all_points_y": [372, 371, 599, 594 ],
 				"name":"polygon"
 			}
 		}
@@ -2085,7 +2085,7 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [558, 779, 775, 553 ],
+				"all_points_x": [558, 779, 778, 553 ],
 				"all_points_y": [369, 369, 596, 590 ],
 				"name":"polygon"
 			}
@@ -2098,8 +2098,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [521, 741, 736, 513 ],
-				"all_points_y": [369, 374, 596, 593 ],
+				"all_points_x": [521, 743, 739, 513 ],
+				"all_points_y": [369, 373, 599, 593 ],
 				"name":"polygon"
 			}
 		}
@@ -2111,8 +2111,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [511, 737, 731, 507 ],
-				"all_points_y": [368, 374, 599, 595 ],
+				"all_points_x": [511, 737, 733, 505 ],
+				"all_points_y": [368, 374, 600, 595 ],
 				"name":"polygon"
 			}
 		}
@@ -2124,8 +2124,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [617, 839, 835, 609 ],
-				"all_points_y": [367, 375, 598, 597 ],
+				"all_points_x": [617, 840, 837, 611 ],
+				"all_points_y": [367, 374, 599, 597 ],
 				"name":"polygon"
 			}
 		}
@@ -2137,8 +2137,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [437, 653, 648, 427 ],
-				"all_points_y": [364, 378, 594, 596 ],
+				"all_points_x": [434, 655, 650, 427 ],
+				"all_points_y": [364, 378, 597, 596 ],
 				"name":"polygon"
 			}
 		}
@@ -2150,8 +2150,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [487, 699, 699, 482 ],
-				"all_points_y": [364, 380, 594, 594 ],
+				"all_points_x": [485, 702, 699, 480 ],
+				"all_points_y": [362, 377, 594, 594 ],
 				"name":"polygon"
 			}
 		}
@@ -2163,8 +2163,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [372, 584, 577, 361 ],
-				"all_points_y": [359, 382, 596, 596 ],
+				"all_points_x": [372, 584, 576, 359 ],
+				"all_points_y": [359, 382, 597, 595 ],
 				"name":"polygon"
 			}
 		}
@@ -2176,8 +2176,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [442, 656, 650, 432 ],
-				"all_points_y": [347, 373, 604, 605 ],
+				"all_points_x": [440, 658, 655, 431 ],
+				"all_points_y": [346, 373, 604, 606 ],
 				"name":"polygon"
 			}
 		}
@@ -2189,8 +2189,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [465, 695, 690, 457 ],
-				"all_points_y": [330, 360, 609, 611 ],
+				"all_points_x": [465, 697, 694, 455 ],
+				"all_points_y": [330, 360, 610, 613 ],
 				"name":"polygon"
 			}
 		}
@@ -2202,8 +2202,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [406, 661, 650, 392 ],
-				"all_points_y": [331, 371, 645, 648 ],
+				"all_points_x": [407, 659, 654, 392 ],
+				"all_points_y": [334, 374, 649, 650 ],
 				"name":"polygon"
 			}
 		}
@@ -2215,8 +2215,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [355, 627, 621, 333 ],
-				"all_points_y": [372, 421, 717, 723 ],
+				"all_points_x": [355, 626, 621, 330 ],
+				"all_points_y": [370, 419, 719, 723 ],
 				"name":"polygon"
 			}
 		}
@@ -2228,8 +2228,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [375, 682, 677, 355 ],
-				"all_points_y": [324, 380, 711, 714 ],
+				"all_points_x": [375, 682, 677, 352 ],
+				"all_points_y": [324, 380, 711, 717 ],
 				"name":"polygon"
 			}
 		}
@@ -2241,8 +2241,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [417, 758, 758, 392 ],
-				"all_points_y": [284, 350, 722, 727 ],
+				"all_points_x": [418, 758, 758, 393 ],
+				"all_points_y": [282, 348, 722, 727 ],
 				"name":"polygon"
 			}
 		}
@@ -2267,8 +2267,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [253, 668, 663, 190 ],
-				"all_points_y": [140, 282, 740, 765 ],
+				"all_points_x": [253, 668, 662, 190 ],
+				"all_points_y": [140, 277, 744, 765 ],
 				"name":"polygon"
 			}
 		}
@@ -2280,8 +2280,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [358, 727, 722, 309 ],
-				"all_points_y": [120, 272, 740, 770 ],
+				"all_points_x": [356, 727, 722, 309 ],
+				"all_points_y": [117, 268, 743, 770 ],
 				"name":"polygon"
 			}
 		}
@@ -2293,8 +2293,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [548, 896, 892, 525 ],
-				"all_points_y": [147, 279, 742, 767 ],
+				"all_points_x": [548, 884, 892, 523 ],
+				"all_points_y": [147, 278, 744, 768 ],
 				"name":"polygon"
 			}
 		}
@@ -2306,8 +2306,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [555, 735, 737, 547 ],
-				"all_points_y": [320, 362, 628, 635 ],
+				"all_points_x": [554, 735, 731, 545 ],
+				"all_points_y": [319, 362, 631, 638 ],
 				"name":"polygon"
 			}
 		}
@@ -2319,8 +2319,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [558, 736, 734, 547 ],
-				"all_points_y": [320, 368, 630, 637 ],
+				"all_points_x": [558, 736, 735, 549 ],
+				"all_points_y": [320, 363, 631, 638 ],
 				"name":"polygon"
 			}
 		}
@@ -2332,8 +2332,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [585, 766, 759, 578 ],
-				"all_points_y": [324, 371, 634, 642 ],
+				"all_points_x": [586, 762, 759, 578 ],
+				"all_points_y": [325, 369, 633, 641 ],
 				"name":"polygon"
 			}
 		}
@@ -2345,8 +2345,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [674, 840, 840, 668 ],
-				"all_points_y": [345, 383, 632, 636 ],
+				"all_points_x": [672, 838, 836, 667 ],
+				"all_points_y": [345, 380, 632, 638 ],
 				"name":"polygon"
 			}
 		}
@@ -2358,8 +2358,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [648, 805, 801, 646 ],
-				"all_points_y": [359, 395, 628, 635 ],
+				"all_points_x": [648, 802, 799, 643 ],
+				"all_points_y": [359, 393, 631, 637 ],
 				"name":"polygon"
 			}
 		}
@@ -2371,8 +2371,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [533, 668, 667, 523 ],
-				"all_points_y": [381, 412, 618, 625 ],
+				"all_points_x": [529, 662, 657, 523 ],
+				"all_points_y": [385, 415, 623, 625 ],
 				"name":"polygon"
 			}
 		}
@@ -2384,8 +2384,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [709, 848, 846, 707 ],
-				"all_points_y": [385, 403, 615, 615 ],
+				"all_points_x": [708, 848, 848, 706 ],
+				"all_points_y": [384, 399, 617, 617 ],
 				"name":"polygon"
 			}
 		}
@@ -2397,8 +2397,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [582, 770, 768, 576 ],
-				"all_points_y": [383, 407, 614, 620 ],
+				"all_points_x": [580, 772, 772, 574 ],
+				"all_points_y": [381, 403, 620, 618 ],
 				"name":"polygon"
 			}
 		}
@@ -2410,8 +2410,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [676, 872, 873, 670 ],
-				"all_points_y": [388, 404, 616, 614 ],
+				"all_points_x": [672, 874, 872, 669 ],
+				"all_points_y": [387, 402, 619, 617 ],
 				"name":"polygon"
 			}
 		}
@@ -2423,7 +2423,7 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [686, 885, 886, 684 ],
+				"all_points_x": [684, 887, 887, 681 ],
 				"all_points_y": [385, 399, 615, 615 ],
 				"name":"polygon"
 			}
@@ -2436,8 +2436,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [730, 940, 936, 728 ],
-				"all_points_y": [390, 404, 621, 620 ],
+				"all_points_x": [729, 940, 938, 726 ],
+				"all_points_y": [390, 401, 621, 621 ],
 				"name":"polygon"
 			}
 		}
@@ -2449,8 +2449,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [767, 991, 995, 766 ],
-				"all_points_y": [387, 391, 618, 618 ],
+				"all_points_x": [765, 992, 994, 763 ],
+				"all_points_y": [385, 389, 619, 617 ],
 				"name":"polygon"
 			}
 		}
@@ -2462,8 +2462,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [828, 1064, 1070, 826 ],
-				"all_points_y": [391, 391, 632, 627 ],
+				"all_points_x": [825, 1065, 1069, 826 ],
+				"all_points_y": [391, 389, 631, 627 ],
 				"name":"polygon"
 			}
 		}
@@ -2475,8 +2475,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [705, 949, 954, 704 ],
-				"all_points_y": [388, 386, 637, 629 ],
+				"all_points_x": [705, 951, 954, 704 ],
+				"all_points_y": [388, 383, 637, 631 ],
 				"name":"polygon"
 			}
 		}
@@ -2592,8 +2592,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [449, 706, 706, 438 ],
-				"all_points_y": [363, 355, 639, 632 ],
+				"all_points_x": [449, 708, 710, 437 ],
+				"all_points_y": [363, 351, 643, 634 ],
 				"name":"polygon"
 			}
 		}
@@ -2618,8 +2618,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [580, 907, 912, 571 ],
-				"all_points_y": [316, 288, 660, 644 ],
+				"all_points_x": [583, 908, 914, 574 ],
+				"all_points_y": [315, 290, 658, 644 ],
 				"name":"polygon"
 			}
 		}
@@ -2631,8 +2631,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [631, 965, 968, 620 ],
-				"all_points_y": [316, 288, 662, 649 ],
+				"all_points_x": [631, 963, 970, 623 ],
+				"all_points_y": [315, 285, 661, 648 ],
 				"name":"polygon"
 			}
 		}
@@ -2670,8 +2670,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [616, 971, 976, 604 ],
-				"all_points_y": [303, 273, 664, 653 ],
+				"all_points_x": [616, 968, 980, 608 ],
+				"all_points_y": [303, 270, 669, 654 ],
 				"name":"polygon"
 			}
 		}
@@ -2683,8 +2683,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [575, 937, 946, 561 ],
-				"all_points_y": [285, 254, 661, 645 ],
+				"all_points_x": [574, 941, 947, 562 ],
+				"all_points_y": [279, 252, 659, 646 ],
 				"name":"polygon"
 			}
 		}
@@ -2696,8 +2696,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [391, 910, 915, 366 ],
-				"all_points_y": [150, 141, 681, 667 ],
+				"all_points_x": [391, 912, 918, 365 ],
+				"all_points_y": [148, 140, 683, 670 ],
 				"name":"polygon"
 			}
 		}
@@ -2709,8 +2709,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [269, 818, 818, 234 ],
-				"all_points_y": [112, 141, 685, 682 ],
+				"all_points_x": [267, 820, 821, 230 ],
+				"all_points_y": [108, 139, 687, 682 ],
 				"name":"polygon"
 			}
 		}
@@ -2722,8 +2722,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [329, 839, 839, 300 ],
-				"all_points_y": [137, 163, 675, 664 ],
+				"all_points_x": [327, 842, 842, 296 ],
+				"all_points_y": [134, 162, 675, 670 ],
 				"name":"polygon"
 			}
 		}
@@ -2735,8 +2735,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [551, 955, 955, 540 ],
-				"all_points_y": [250, 255, 661, 654 ],
+				"all_points_x": [551, 956, 962, 537 ],
+				"all_points_y": [250, 253, 666, 659 ],
 				"name":"polygon"
 			}
 		}
@@ -2748,8 +2748,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [585, 889, 888, 577 ],
-				"all_points_y": [333, 338, 641, 637 ],
+				"all_points_x": [583, 890, 893, 576 ],
+				"all_points_y": [331, 336, 645, 642 ],
 				"name":"polygon"
 			}
 		}
@@ -2761,8 +2761,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [679, 941, 936, 677 ],
-				"all_points_y": [369, 369, 634, 627 ],
+				"all_points_x": [679, 936, 939, 677 ],
+				"all_points_y": [373, 372, 635, 632 ],
 				"name":"polygon"
 			}
 		}
@@ -2774,8 +2774,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [594, 829, 832, 587 ],
-				"all_points_y": [387, 390, 632, 625 ],
+				"all_points_x": [596, 832, 832, 590 ],
+				"all_points_y": [387, 391, 630, 626 ],
 				"name":"polygon"
 			}
 		}
@@ -2787,8 +2787,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [533, 755, 748, 527 ],
-				"all_points_y": [395, 400, 620, 618 ],
+				"all_points_x": [533, 752, 750, 527 ],
+				"all_points_y": [395, 401, 622, 618 ],
 				"name":"polygon"
 			}
 		}
@@ -2800,8 +2800,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [564, 764, 761, 557 ],
-				"all_points_y": [408, 413, 617, 613 ],
+				"all_points_x": [564, 766, 764, 557 ],
+				"all_points_y": [408, 413, 618, 613 ],
 				"name":"polygon"
 			}
 		}
@@ -2813,8 +2813,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [653, 838, 838, 646 ],
-				"all_points_y": [431, 432, 627, 618 ],
+				"all_points_x": [650, 840, 840, 646 ],
+				"all_points_y": [429, 432, 624, 622 ],
 				"name":"polygon"
 			}
 		}
@@ -2943,8 +2943,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [698, 832, 831, 698 ],
-				"all_points_y": [440, 444, 575, 573 ],
+				"all_points_x": [698, 835, 834, 696 ],
+				"all_points_y": [440, 440, 580, 576 ],
 				"name":"polygon"
 			}
 		}
@@ -2956,8 +2956,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [694, 831, 834, 694 ],
-				"all_points_y": [435, 442, 575, 573 ],
+				"all_points_x": [693, 831, 831, 692 ],
+				"all_points_y": [437, 440, 579, 575 ],
 				"name":"polygon"
 			}
 		}
@@ -2969,8 +2969,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [596, 736, 732, 592 ],
-				"all_points_y": [435, 438, 579, 579 ],
+				"all_points_x": [595, 734, 732, 592 ],
+				"all_points_y": [439, 442, 579, 579 ],
 				"name":"polygon"
 			}
 		}
@@ -2982,8 +2982,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [578, 720, 722, 577 ],
-				"all_points_y": [437, 440, 580, 582 ],
+				"all_points_x": [581, 722, 721, 580 ],
+				"all_points_y": [439, 441, 582, 581 ],
 				"name":"polygon"
 			}
 		}
@@ -3047,7 +3047,7 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [575, 726, 724, 570 ],
+				"all_points_x": [575, 726, 724, 575 ],
 				"all_points_y": [447, 448, 597, 599 ],
 				"name":"polygon"
 			}
@@ -3060,8 +3060,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [569, 716, 714, 565 ],
-				"all_points_y": [461, 462, 610, 612 ],
+				"all_points_x": [569, 716, 716, 565 ],
+				"all_points_y": [461, 462, 613, 612 ],
 				"name":"polygon"
 			}
 		}
@@ -3086,8 +3086,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [496, 667, 664, 488 ],
-				"all_points_y": [389, 395, 571, 565 ],
+				"all_points_x": [496, 667, 666, 488 ],
+				"all_points_y": [389, 395, 568, 565 ],
 				"name":"polygon"
 			}
 		}
@@ -3125,8 +3125,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [551, 763, 763, 542 ],
-				"all_points_y": [355, 362, 573, 571 ],
+				"all_points_x": [548, 766, 763, 542 ],
+				"all_points_y": [354, 360, 579, 573 ],
 				"name":"polygon"
 			}
 		}
@@ -3138,8 +3138,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [516, 748, 745, 505 ],
-				"all_points_y": [343, 351, 584, 581 ],
+				"all_points_x": [512, 751, 748, 505 ],
+				"all_points_y": [341, 349, 587, 581 ],
 				"name":"polygon"
 			}
 		}
@@ -3151,8 +3151,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [592, 855, 854, 585 ],
-				"all_points_y": [326, 329, 595, 588 ],
+				"all_points_x": [590, 856, 854, 586 ],
+				"all_points_y": [324, 327, 595, 590 ],
 				"name":"polygon"
 			}
 		}
@@ -3164,8 +3164,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [604, 898, 899, 595 ],
-				"all_points_y": [303, 305, 603, 599 ],
+				"all_points_x": [603, 898, 899, 595 ],
+				"all_points_y": [303, 305, 606, 602 ],
 				"name":"polygon"
 			}
 		}
@@ -3177,8 +3177,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [470, 848, 851, 457 ],
-				"all_points_y": [221, 231, 613, 609 ],
+				"all_points_x": [468, 852, 854, 454 ],
+				"all_points_y": [222, 229, 617, 614 ],
 				"name":"polygon"
 			}
 		}
@@ -3190,8 +3190,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [405, 922, 924, 385 ],
-				"all_points_y": [100, 112, 631, 628 ],
+				"all_points_x": [405, 924, 930, 384 ],
+				"all_points_y": [100, 112, 636, 632 ],
 				"name":"polygon"
 			}
 		}
@@ -3203,8 +3203,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [634, 831, 825, 630 ],
-				"all_points_y": [212, 273, 620, 670 ],
+				"all_points_x": [636, 831, 825, 627 ],
+				"all_points_y": [215, 273, 623, 668 ],
 				"name":"polygon"
 			}
 		}
@@ -3216,8 +3216,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [672, 870, 860, 665 ],
-				"all_points_y": [222, 279, 616, 659 ],
+				"all_points_x": [675, 866, 860, 666 ],
+				"all_points_y": [222, 274, 617, 659 ],
 				"name":"polygon"
 			}
 		}
@@ -3255,8 +3255,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [646, 822, 819, 642 ],
-				"all_points_y": [240, 283, 599, 638 ],
+				"all_points_x": [646, 823, 820, 640 ],
+				"all_points_y": [240, 282, 600, 637 ],
 				"name":"polygon"
 			}
 		}
@@ -3268,8 +3268,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [628, 796, 793, 618 ],
-				"all_points_y": [255, 295, 592, 627 ],
+				"all_points_x": [627, 796, 790, 621 ],
+				"all_points_y": [255, 295, 596, 627 ],
 				"name":"polygon"
 			}
 		}
@@ -3281,8 +3281,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [620, 786, 778, 614 ],
-				"all_points_y": [262, 299, 586, 618 ],
+				"all_points_x": [620, 784, 778, 614 ],
+				"all_points_y": [259, 297, 587, 619 ],
 				"name":"polygon"
 			}
 		}
@@ -3294,8 +3294,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [608, 761, 758, 604 ],
-				"all_points_y": [271, 308, 585, 618 ],
+				"all_points_x": [606, 761, 759, 603 ],
+				"all_points_y": [273, 308, 587, 615 ],
 				"name":"polygon"
 			}
 		}
@@ -3307,8 +3307,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [616, 763, 761, 611 ],
-				"all_points_y": [278, 312, 581, 610 ],
+				"all_points_x": [614, 763, 762, 611 ],
+				"all_points_y": [279, 311, 581, 610 ],
 				"name":"polygon"
 			}
 		}
@@ -3372,8 +3372,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [606, 720, 711, 602 ],
-				"all_points_y": [324, 345, 552, 568 ],
+				"all_points_x": [603, 714, 711, 599 ],
+				"all_points_y": [324, 342, 552, 569 ],
 				"name":"polygon"
 			}
 		}
@@ -3385,8 +3385,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [599, 700, 698, 597 ],
-				"all_points_y": [333, 355, 548, 561 ],
+				"all_points_x": [596, 699, 698, 596 ],
+				"all_points_y": [333, 351, 548, 561 ],
 				"name":"polygon"
 			}
 		}
@@ -3411,8 +3411,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [595, 684, 678, 591 ],
-				"all_points_y": [344, 354, 530, 537 ],
+				"all_points_x": [594, 684, 679, 591 ],
+				"all_points_y": [340, 354, 527, 537 ],
 				"name":"polygon"
 			}
 		}
@@ -3424,8 +3424,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [589, 676, 673, 588 ],
-				"all_points_y": [359, 371, 536, 545 ],
+				"all_points_x": [588, 677, 675, 586 ],
+				"all_points_y": [357, 368, 536, 544 ],
 				"name":"polygon"
 			}
 		}
@@ -3437,8 +3437,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [540, 638, 635, 541 ],
-				"all_points_y": [350, 362, 532, 544 ],
+				"all_points_x": [540, 638, 639, 541 ],
+				"all_points_y": [348, 360, 533, 544 ],
 				"name":"polygon"
 			}
 		}
@@ -3450,8 +3450,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [534, 642, 640, 534 ],
-				"all_points_y": [341, 357, 536, 550 ],
+				"all_points_x": [534, 641, 640, 534 ],
+				"all_points_y": [341, 353, 537, 550 ],
 				"name":"polygon"
 			}
 		}
@@ -3463,8 +3463,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [542, 658, 657, 538 ],
-				"all_points_y": [325, 346, 539, 553 ],
+				"all_points_x": [542, 659, 657, 538 ],
+				"all_points_y": [325, 341, 539, 553 ],
 				"name":"polygon"
 			}
 		}
@@ -3476,8 +3476,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [522, 657, 650, 519 ],
-				"all_points_y": [321, 344, 554, 569 ],
+				"all_points_x": [522, 655, 651, 518 ],
+				"all_points_y": [319, 340, 557, 572 ],
 				"name":"polygon"
 			}
 		}
@@ -3489,8 +3489,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [571, 722, 724, 570 ],
-				"all_points_y": [309, 333, 568, 589 ],
+				"all_points_x": [572, 722, 719, 570 ],
+				"all_points_y": [311, 333, 570, 589 ],
 				"name":"polygon"
 			}
 		}
@@ -3502,8 +3502,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [511, 701, 696, 501 ],
-				"all_points_y": [262, 300, 585, 620 ],
+				"all_points_x": [508, 694, 690, 504 ],
+				"all_points_y": [269, 304, 591, 619 ],
 				"name":"polygon"
 			}
 		}
@@ -3515,8 +3515,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [484, 693, 690, 479 ],
-				"all_points_y": [244, 288, 606, 641 ],
+				"all_points_x": [484, 693, 690, 477 ],
+				"all_points_y": [244, 288, 606, 642 ],
 				"name":"polygon"
 			}
 		}
@@ -3528,8 +3528,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [466, 709, 701, 456 ],
-				"all_points_y": [209, 268, 623, 668 ],
+				"all_points_x": [462, 709, 702, 454 ],
+				"all_points_y": [211, 268, 623, 669 ],
 				"name":"polygon"
 			}
 		}
@@ -3541,8 +3541,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [466, 703, 698, 459 ],
-				"all_points_y": [242, 287, 614, 656 ],
+				"all_points_x": [466, 704, 698, 459 ],
+				"all_points_y": [239, 287, 615, 656 ],
 				"name":"polygon"
 			}
 		}
@@ -3554,8 +3554,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [542, 765, 760, 533 ],
-				"all_points_y": [257, 292, 596, 625 ],
+				"all_points_x": [541, 765, 760, 533 ],
+				"all_points_y": [256, 292, 599, 625 ],
 				"name":"polygon"
 			}
 		}
@@ -3567,8 +3567,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [485, 688, 685, 483 ],
-				"all_points_y": [283, 314, 590, 621 ],
+				"all_points_x": [487, 688, 686, 482 ],
+				"all_points_y": [282, 310, 592, 618 ],
 				"name":"polygon"
 			}
 		}
@@ -3593,8 +3593,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [575, 739, 737, 571 ],
-				"all_points_y": [311, 337, 568, 589 ],
+				"all_points_x": [573, 739, 737, 571 ],
+				"all_points_y": [310, 332, 571, 589 ],
 				"name":"polygon"
 			}
 		}
@@ -3606,8 +3606,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [580, 732, 736, 580 ],
-				"all_points_y": [314, 335, 551, 568 ],
+				"all_points_x": [582, 732, 729, 580 ],
+				"all_points_y": [315, 335, 553, 568 ],
 				"name":"polygon"
 			}
 		}
@@ -3619,8 +3619,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [596, 718, 716, 594 ],
-				"all_points_y": [343, 354, 538, 547 ],
+				"all_points_x": [596, 719, 718, 593 ],
+				"all_points_y": [339, 353, 538, 548 ],
 				"name":"polygon"
 			}
 		}
@@ -3632,8 +3632,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [611, 725, 722, 604 ],
-				"all_points_y": [338, 355, 526, 533 ],
+				"all_points_x": [611, 725, 723, 607 ],
+				"all_points_y": [340, 352, 526, 535 ],
 				"name":"polygon"
 			}
 		}
@@ -3645,8 +3645,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [606, 714, 708, 604 ],
-				"all_points_y": [355, 365, 527, 534 ],
+				"all_points_x": [607, 714, 711, 604 ],
+				"all_points_y": [353, 365, 526, 533 ],
 				"name":"polygon"
 			}
 		}
@@ -3658,8 +3658,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [628, 728, 722, 625 ],
-				"all_points_y": [355, 365, 517, 524 ],
+				"all_points_x": [628, 728, 724, 625 ],
+				"all_points_y": [354, 365, 517, 524 ],
 				"name":"polygon"
 			}
 		}
@@ -3671,8 +3671,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [573, 670, 665, 574 ],
-				"all_points_y": [364, 375, 517, 524 ],
+				"all_points_x": [576, 669, 667, 572 ],
+				"all_points_y": [363, 372, 518, 525 ],
 				"name":"polygon"
 			}
 		}
@@ -3697,8 +3697,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [535, 625, 622, 533 ],
-				"all_points_y": [354, 362, 523, 523 ],
+				"all_points_x": [538, 628, 627, 535 ],
+				"all_points_y": [356, 364, 520, 526 ],
 				"name":"polygon"
 			}
 		}
@@ -3710,8 +3710,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [545, 661, 661, 544 ],
-				"all_points_y": [354, 361, 518, 523 ],
+				"all_points_x": [545, 665, 663, 543 ],
+				"all_points_y": [353, 362, 518, 524 ],
 				"name":"polygon"
 			}
 		}
@@ -3724,7 +3724,7 @@
 			"region_attributes": {},
 			"shape_attributes": {
 				"all_points_x": [616, 684, 682, 618 ],
-				"all_points_y": [361, 364, 521, 525 ],
+				"all_points_y": [361, 364, 523, 525 ],
 				"name":"polygon"
 			}
 		}
@@ -3736,8 +3736,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [606, 717, 715, 608 ],
-				"all_points_y": [350, 358, 513, 520 ],
+				"all_points_x": [602, 717, 714, 604 ],
+				"all_points_y": [351, 358, 515, 519 ],
 				"name":"polygon"
 			}
 		}
@@ -3749,8 +3749,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [646, 782, 775, 643 ],
-				"all_points_y": [346, 361, 514, 516 ],
+				"all_points_x": [646, 781, 778, 643 ],
+				"all_points_y": [350, 359, 513, 516 ],
 				"name":"polygon"
 			}
 		}
@@ -3762,8 +3762,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [603, 742, 735, 596 ],
-				"all_points_y": [344, 354, 509, 511 ],
+				"all_points_x": [602, 742, 737, 598 ],
+				"all_points_y": [343, 352, 510, 511 ],
 				"name":"polygon"
 			}
 		}
@@ -3775,8 +3775,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [615, 763, 760, 609 ],
-				"all_points_y": [347, 355, 527, 530 ],
+				"all_points_x": [612, 760, 758, 609 ],
+				"all_points_y": [352, 359, 527, 530 ],
 				"name":"polygon"
 			}
 		}
@@ -3788,8 +3788,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [554, 715, 713, 547 ],
-				"all_points_y": [349, 362, 544, 551 ],
+				"all_points_x": [550, 716, 714, 547 ],
+				"all_points_y": [345, 357, 543, 549 ],
 				"name":"polygon"
 			}
 		}
@@ -3801,8 +3801,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [542, 734, 729, 535 ],
-				"all_points_y": [321, 337, 550, 559 ],
+				"all_points_x": [542, 734, 732, 537 ],
+				"all_points_y": [321, 337, 552, 559 ],
 				"name":"polygon"
 			}
 		}
@@ -3814,8 +3814,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [563, 773, 767, 554 ],
-				"all_points_y": [323, 341, 574, 584 ],
+				"all_points_x": [563, 773, 768, 558 ],
+				"all_points_y": [323, 341, 574, 583 ],
 				"name":"polygon"
 			}
 		}
@@ -3827,8 +3827,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [552, 794, 778, 548 ],
-				"all_points_y": [300, 324, 577, 587 ],
+				"all_points_x": [552, 783, 778, 548 ],
+				"all_points_y": [300, 320, 577, 587 ],
 				"name":"polygon"
 			}
 		}
@@ -3853,8 +3853,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [480, 786, 781, 471 ],
-				"all_points_y": [241, 279, 613, 637 ],
+				"all_points_x": [478, 782, 776, 472 ],
+				"all_points_y": [241, 278, 614, 639 ],
 				"name":"polygon"
 			}
 		}
@@ -3866,8 +3866,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [537, 888, 888, 533 ],
-				"all_points_y": [214, 260, 641, 672 ],
+				"all_points_x": [540, 889, 885, 536 ],
+				"all_points_y": [216, 258, 640, 672 ],
 				"name":"polygon"
 			}
 		}
@@ -3880,7 +3880,7 @@
 			"region_attributes": {},
 			"shape_attributes": {
 				"all_points_x": [502, 903, 898, 497 ],
-				"all_points_y": [169, 224, 658, 706 ],
+				"all_points_y": [169, 222, 660, 706 ],
 				"name":"polygon"
 			}
 		}
@@ -3892,8 +3892,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [522, 992, 982, 517 ],
-				"all_points_y": [134, 199, 701, 754 ],
+				"all_points_x": [522, 992, 984, 515 ],
+				"all_points_y": [133, 197, 700, 756 ],
 				"name":"polygon"
 			}
 		}
@@ -3905,8 +3905,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [399, 903, 896, 397 ],
-				"all_points_y": [138, 198, 701, 744 ],
+				"all_points_x": [401, 903, 897, 396 ],
+				"all_points_y": [136, 198, 705, 751 ],
 				"name":"polygon"
 			}
 		}
@@ -3918,8 +3918,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [391, 829, 826, 388 ],
-				"all_points_y": [166, 216, 661, 699 ],
+				"all_points_x": [391, 832, 827, 388 ],
+				"all_points_y": [166, 216, 661, 700 ],
 				"name":"polygon"
 			}
 		}
@@ -3931,8 +3931,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [414, 782, 778, 409 ],
-				"all_points_y": [214, 255, 635, 664 ],
+				"all_points_x": [411, 781, 778, 408 ],
+				"all_points_y": [212, 252, 635, 665 ],
 				"name":"polygon"
 			}
 		}
@@ -3944,8 +3944,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [462, 780, 780, 457 ],
-				"all_points_y": [251, 273, 614, 642 ],
+				"all_points_x": [460, 782, 780, 458 ],
+				"all_points_y": [245, 274, 615, 639 ],
 				"name":"polygon"
 			}
 		}
@@ -3957,8 +3957,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [469, 748, 743, 463 ],
-				"all_points_y": [280, 307, 604, 622 ],
+				"all_points_x": [466, 747, 745, 463 ],
+				"all_points_y": [277, 302, 604, 622 ],
 				"name":"polygon"
 			}
 		}
@@ -3970,8 +3970,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [471, 727, 725, 471 ],
-				"all_points_y": [292, 314, 582, 599 ],
+				"all_points_x": [473, 725, 724, 471 ],
+				"all_points_y": [291, 314, 585, 599 ],
 				"name":"polygon"
 			}
 		}
@@ -3983,8 +3983,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [592, 813, 805, 589 ],
-				"all_points_y": [319, 337, 575, 587 ],
+				"all_points_x": [593, 811, 808, 589 ],
+				"all_points_y": [317, 335, 577, 587 ],
 				"name":"polygon"
 			}
 		}
@@ -4009,7 +4009,7 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [583, 789, 782, 577 ],
+				"all_points_x": [581, 789, 785, 577 ],
 				"all_points_y": [326, 342, 571, 580 ],
 				"name":"polygon"
 			}
@@ -4022,8 +4022,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [576, 775, 771, 572 ],
-				"all_points_y": [321, 335, 555, 566 ],
+				"all_points_x": [576, 776, 773, 572 ],
+				"all_points_y": [320, 335, 557, 566 ],
 				"name":"polygon"
 			}
 		}
@@ -4035,8 +4035,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [589, 781, 777, 582 ],
-				"all_points_y": [324, 340, 556, 563 ],
+				"all_points_x": [586, 782, 779, 583 ],
+				"all_points_y": [324, 337, 556, 564 ],
 				"name":"polygon"
 			}
 		}
@@ -4048,8 +4048,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [587, 777, 772, 585 ],
-				"all_points_y": [328, 341, 550, 558 ],
+				"all_points_x": [586, 777, 774, 583 ],
+				"all_points_y": [325, 340, 552, 559 ],
 				"name":"polygon"
 			}
 		}
@@ -4061,8 +4061,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [590, 776, 769, 586 ],
-				"all_points_y": [333, 345, 554, 560 ],
+				"all_points_x": [588, 775, 773, 584 ],
+				"all_points_y": [331, 345, 553, 561 ],
 				"name":"polygon"
 			}
 		}
@@ -4074,8 +4074,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [594, 775, 770, 590 ],
-				"all_points_y": [335, 342, 549, 554 ],
+				"all_points_x": [592, 775, 772, 589 ],
+				"all_points_y": [332, 344, 548, 554 ],
 				"name":"polygon"
 			}
 		}
@@ -4087,8 +4087,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [594, 771, 768, 590 ],
-				"all_points_y": [335, 348, 546, 551 ],
+				"all_points_x": [593, 772, 768, 590 ],
+				"all_points_y": [333, 345, 546, 551 ],
 				"name":"polygon"
 			}
 		}
@@ -4100,8 +4100,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [594, 772, 767, 594 ],
-				"all_points_y": [330, 346, 540, 547 ],
+				"all_points_x": [595, 769, 766, 591 ],
+				"all_points_y": [333, 345, 541, 547 ],
 				"name":"polygon"
 			}
 		}
@@ -4113,8 +4113,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [590, 766, 762, 589 ],
-				"all_points_y": [335, 350, 540, 547 ],
+				"all_points_x": [595, 765, 763, 591 ],
+				"all_points_y": [339, 349, 542, 548 ],
 				"name":"polygon"
 			}
 		}
@@ -4126,8 +4126,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [617, 774, 771, 613 ],
-				"all_points_y": [349, 359, 539, 544 ],
+				"all_points_x": [616, 776, 773, 612 ],
+				"all_points_y": [348, 359, 539, 543 ],
 				"name":"polygon"
 			}
 		}
@@ -4139,8 +4139,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [589, 740, 734, 586 ],
-				"all_points_y": [352, 362, 530, 537 ],
+				"all_points_x": [589, 739, 737, 586 ],
+				"all_points_y": [352, 360, 531, 537 ],
 				"name":"polygon"
 			}
 		}
@@ -4165,8 +4165,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [630, 769, 768, 625 ],
-				"all_points_y": [352, 362, 514, 516 ],
+				"all_points_x": [630, 766, 762, 625 ],
+				"all_points_y": [352, 360, 515, 516 ],
 				"name":"polygon"
 			}
 		}
@@ -4178,8 +4178,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [610, 742, 738, 603 ],
-				"all_points_y": [339, 345, 495, 496 ],
+				"all_points_x": [610, 742, 740, 606 ],
+				"all_points_y": [339, 345, 495, 497 ],
 				"name":"polygon"
 			}
 		}
@@ -4217,8 +4217,8 @@
 		"0": {
 			"region_attributes": {},
 			"shape_attributes": {
-				"all_points_x": [548, 689, 682, 544 ],
-				"all_points_y": [338, 350, 501, 503 ],
+				"all_points_x": [548, 688, 685, 544 ],
+				"all_points_y": [338, 347, 501, 503 ],
 				"name":"polygon"
 			}
 		}
